@@ -1,0 +1,5 @@
+2024-05-16 12:39:11 DEBUG Starting new HTTPS connection (1): api.weixin.qq.com:443
+2024-05-16 12:39:12 DEBUG https://api.weixin.qq.com:443 "POST /cgi-bin/tags/update?access_token=80_X82t0TCzj4kqvz_hPUNm_fwwH6n5C02pX2-TiwEO29cTixMpxdwrzI6VtbvtcfIt25uj478i0demenIv-ZIgYwQKZIQZ9vzepHSTWxF5JUIdb2fbL24UKOPp12AELIdAGAVCZ HTTP/1.1" 200 95
+2024-05-16 12:39:12 INFO 【修改用户标签接口】用例3：参数id不存在- 测试用例,执行成功！实际响应码为：200
+2024-05-16 12:39:12 INFO 【修改用户标签接口】用例3：参数id不存在- 测试用例,执行成功！实际响应结果为：{'errcode': -1, 'errmsg': 'system error hint: [tFHcevj2e-PNjKdA] rid: 66458def-48e7e158-3e163f4b'}
+2024-05-16 12:39:12 INFO 【修改用户标签接口】用例3：参数id不存在- 测试用例,执行成功！实际响应结果为：{"errcode": -1, "errmsg": "system error hint: [tFHcevj2e-PNjKdA] rid: 66458def-48e7e158-3e163f4b"}

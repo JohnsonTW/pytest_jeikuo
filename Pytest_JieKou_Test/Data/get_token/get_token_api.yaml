@@ -1,0 +1,77 @@
+-
+  caseName: 【获取鉴权接口】用例1：grant_type参数为空/缺失
+  method: &method get
+  url: &url /cgi-bin/token
+  params:
+    grant_type:
+    appid: &appid wx8419d850fbd9f70e
+    secret: &secret 3a6dcf6ba33cd5b954574036111f1373
+  excepted:
+    errcode: 40002
+    statusCode: &statusCode 200
+-
+  caseName: 【获取鉴权接口】用例2：grant_type参数错误
+  method: *method
+  url: *url
+  params:
+    grant_type: 错误错误错误数据
+    appid: *appid
+    secret: *secret
+  excepted:
+    errcode: 40002
+    statusCode: *statusCode
+-
+  caseName: 【获取鉴权接口】用例3：appid参数为空/缺失
+  method: *method
+  url: *url
+  params:
+    grant_type: &grant_type client_credential
+    appid:
+    secret: *secret
+  excepted:
+    errcode: 41002
+    statusCode: *statusCode
+-
+  caseName: 【获取鉴权接口】用例4：appid参数错误
+  method: *method
+  url: *url
+  params:
+    grant_type: *grant_type
+    appid: 错误数据
+    secret: *secret
+  excepted:
+    errcode: 40013
+    statusCode: *statusCode
+-
+  caseName: 【获取鉴权接口】用例5：secret参数为空/缺失
+  method: *method
+  url: *url
+  params:
+    grant_type: *grant_type
+    appid: *appid
+    secret:
+  excepted:
+    errcode: 41004
+    statusCode: *statusCode
+-
+  caseName: 【获取鉴权接口】用例6：secret参数错误
+  method: *method
+  url: *url
+  params:
+    grant_type: *grant_type
+    appid: *appid
+    secret: 错误数据
+  excepted:
+    errcode: 40125
+    statusCode: *statusCode
+-
+  caseName: 【获取鉴权接口】用例7：所有参数正确
+  method: *method
+  url: *url
+  params:
+    grant_type: client_credential
+    appid: *appid
+    secret: *secret
+  excepted:
+    expires_in: 7200
+    statusCode: *statusCode

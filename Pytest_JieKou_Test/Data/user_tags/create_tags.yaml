@@ -1,0 +1,64 @@
+-
+  caseName: 【创建用户标签接口】用例1：参数全部正确
+  method: &method post
+  url: &url /cgi-bin/tags/create
+  data:
+    tag:
+      name: &name ${generate_random_string(30)}
+  excepted:
+    statusCode: &statusCode 200
+-
+  caseName: 【创建用户标签接口】用例2：参数name为""
+  method: *method
+  url: *url
+  data:
+    tag:
+      name: ""
+  excepted:
+    errcode: 45157
+    errmsg: invalid tag name
+    statusCode: *statusCode
+-
+  caseName: 【创建用户标签接口】用例3：参数name已存在
+  method: *method
+  url: *url
+  data:
+    tag:
+      name: 星标组
+  excepted:
+    errcode: 45157
+    errmsg: invalid tag name
+    statusCode: *statusCode
+-
+  caseName: 【创建用户标签接口】用例4：参数name为null
+  method: *method
+  url: *url
+  data:
+    tag:
+      name: null
+  excepted:
+    errcode: 45157
+    errmsg: invalid tag name
+    statusCode: *statusCode
+-
+  caseName: 【创建用户标签接口】用例5：参数name超过30个字节
+  method: *method
+  url: *url
+  data:
+    tag:
+      name: ${generate_random_string(40)}
+  excepted:
+    errcode: 45158
+    errmsg: tag name too long
+    statusCode: *statusCode
+-
+  caseName: 【创建用户标签接口】用例6：请求body缺失
+  method: *method
+  url: *url
+  data:
+  excepted:
+    errcode: 44002
+    errmsg: empty post data
+    statusCode: *statusCode
+
+

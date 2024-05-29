@@ -1,0 +1,55 @@
+-
+  caseName: 【设置用户备注名接口】用例1：所有参数正常
+  method: &method post
+  url: &url /cgi-bin/user/info/updateremark
+  data:
+    openid: &openid ${select_user_list()}
+    remark: &remark ${generate_random_string(30)}
+  excepted:
+    errcode: 0
+    errmsg: ok
+    statusCode: &statusCode 200
+-
+  caseName: 【设置用户备注名接口】用例2：openid参数为空
+  method: *method
+  url: *url
+  data:
+    openid: ""
+    remark: *remark
+  excepted:
+    errcode: 40003
+    errmsg: invalid openid hint
+    statusCode: *statusCode
+-
+  caseName: 【设置用户备注名接口】用例3：openid参数不符合规则
+  method: *method
+  url: *url
+  data:
+    openid: "2144325"
+    remark: *remark
+  excepted:
+    errcode: 40003
+    errmsg: invalid openid hint
+    statusCode: *statusCode
+-
+  caseName: 【设置用户备注名接口】用例4：remark参数为空
+  method: *method
+  url: *url
+  data:
+    openid: *openid
+    remark: ""
+  excepted:
+    errcode: 0
+    errmsg: ok
+    statusCode: *statusCode
+-
+  caseName: 【设置用户备注名接口】用例5：openid不存在/没注册
+  method: *method
+  url: *url
+  data:
+    openid: "oDqjY5_GLrHIJQtaZWhJspPwUpbU"
+    remark: *remark
+  excepted:
+    errcode: 43004
+    errmsg: require subscribe
+    statusCode: *statusCode

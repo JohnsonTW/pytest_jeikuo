@@ -1,0 +1,174 @@
+{
+  "uid" : "dd2ebfd3714edfb8",
+  "name" : "test_getUserBaseInfo[args1]",
+  "fullName" : "testcase.user_manage.test_get_user_base_info.Test_user_manage#test_getUserBaseInfo",
+  "historyId" : "aa09b04edd5abf70f7e8693b6fbe6035",
+  "time" : {
+    "start" : 1715834340578,
+    "stop" : 1715834340866,
+    "duration" : 288
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_fixture",
+    "time" : {
+      "start" : 1715834313483,
+      "stop" : 1715834313488,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "执行接口",
+      "time" : {
+        "start" : 1715834340578,
+        "stop" : 1715834340858,
+        "duration" : 280
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应体验证",
+      "time" : {
+        "start" : 1715834340858,
+        "stop" : 1715834340862,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "errcode的实际结果是否与预期一致",
+        "time" : {
+          "start" : 1715834340858,
+          "stop" : 1715834340858,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "errmsg的实际结果是否与预期一致",
+        "time" : {
+          "start" : 1715834340858,
+          "stop" : 1715834340862,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "bb8893d6a9c83d47",
+      "name" : "log",
+      "source" : "bb8893d6a9c83d47.txt",
+      "type" : "text/plain",
+      "size" : 890
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_fixture::0",
+    "time" : {
+      "start" : 1715834355115,
+      "stop" : 1715834355115,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户管理模块"
+  }, {
+    "name" : "story",
+    "value" : "获取用户基本信息接口"
+  }, {
+    "name" : "epic",
+    "value" : "微信项目"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.user_manage"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_user_base_info"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_user_manage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IG8PJM0"
+  }, {
+    "name" : "thread",
+    "value" : "4692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.user_manage.test_get_user_base_info"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'caseName': '用例2：openid参数无效', 'method': 'post', 'url': '/cgi-bin/user/info', 'params': {'openid': 'TewFrGOIGreHIrOH12314', 'lang': 'zh_CN'}, 'excepted': {'statusCode': 200, 'errcode': 40003, 'errmsg': 'invalid openid'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dd2ebfd3714edfb8.json",
+  "parameterValues" : [ "{'caseName': '用例2：openid参数无效', 'method': 'post', 'url': '/cgi-bin/user/info', 'params': {'openid': 'TewFrGOIGreHIrOH12314', 'lang': 'zh_CN'}, 'excepted': {'statusCode': 200, 'errcode': 40003, 'errmsg': 'invalid openid'}}" ]
+}

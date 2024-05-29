@@ -1,0 +1,174 @@
+{
+  "uid" : "3b0ae918f1846cb8",
+  "name" : "test_uptate_kf[args1]",
+  "fullName" : "testcase.kf_mannage.test_kf.Test_kf#test_uptate_kf",
+  "historyId" : "6aaecb4311ef356632d0bdb49b8b01dc",
+  "time" : {
+    "start" : 1715834327706,
+    "stop" : 1715834328074,
+    "duration" : 368
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_fixture",
+    "time" : {
+      "start" : 1715834313483,
+      "stop" : 1715834313488,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "执行接口",
+      "time" : {
+        "start" : 1715834327706,
+        "stop" : 1715834328070,
+        "duration" : 364
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "断言响应体",
+      "time" : {
+        "start" : 1715834328070,
+        "stop" : 1715834328070,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "断言：errcode是否与预期结果一致",
+        "time" : {
+          "start" : 1715834328070,
+          "stop" : 1715834328070,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "断言：errmsg是否与预期结果一致",
+        "time" : {
+          "start" : 1715834328070,
+          "stop" : 1715834328070,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a78bb3931aa86186",
+      "name" : "log",
+      "source" : "a78bb3931aa86186.txt",
+      "type" : "text/plain",
+      "size" : 1044
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_fixture::0",
+    "time" : {
+      "start" : 1715834355115,
+      "stop" : 1715834355115,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "客服管理模块"
+  }, {
+    "name" : "story",
+    "value" : "设置客服信息接口"
+  }, {
+    "name" : "epic",
+    "value" : "微信项目"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.kf_mannage"
+  }, {
+    "name" : "suite",
+    "value" : "test_kf"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_kf"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IG8PJM0"
+  }, {
+    "name" : "thread",
+    "value" : "4692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.kf_mannage.test_kf"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'caseName': '【设置客服信息接口】用例2：客服账号kf_account参数为空', 'method': 'post', 'url': '/customservice/kfaccount/update', 'data': {'kf_account': '', 'nickname': 'yrEb6drY2MJ3IiRU'}, 'excepted': {'errcode': 65401, 'errmsg': 'invalid custom service account', 'statusCode': 200}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3b0ae918f1846cb8.json",
+  "parameterValues" : [ "{'caseName': '【设置客服信息接口】用例2：客服账号kf_account参数为空', 'method': 'post', 'url': '/customservice/kfaccount/update', 'data': {'kf_account': '', 'nickname': 'yrEb6drY2MJ3IiRU'}, 'excepted': {'errcode': 65401, 'errmsg': 'invalid custom service account', 'statusCode': 200}}" ]
+}

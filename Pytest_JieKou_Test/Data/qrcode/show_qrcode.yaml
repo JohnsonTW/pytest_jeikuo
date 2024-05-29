@@ -1,0 +1,9 @@
+-
+  caseName: 【通过ticket换取二维码接口】用例1：参数全部正确
+  method: get
+  url: https://mp.weixin.qq.com/cgi-bin/showqrcode
+  params:
+    ticket: &ticket ${create_ticket()}
+  excepted:
+    statusCode: 200
+    http_response_header: 'image/jpg'

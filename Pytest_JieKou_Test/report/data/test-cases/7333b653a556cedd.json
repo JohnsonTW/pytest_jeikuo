@@ -1,0 +1,174 @@
+{
+  "uid" : "7333b653a556cedd",
+  "name" : "test_upload_img[args5]",
+  "fullName" : "testcase.kaquan.test_upload_kaquan.Test_upload_img#test_upload_img",
+  "historyId" : "7179c481b9d08f969731523abeb1e7a8",
+  "time" : {
+    "start" : 1715834320971,
+    "stop" : 1715834325006,
+    "duration" : 4035
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_fixture",
+    "time" : {
+      "start" : 1715834313483,
+      "stop" : 1715834313488,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "执行接口",
+      "time" : {
+        "start" : 1715834320979,
+        "stop" : 1715834324999,
+        "duration" : 4020
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应体断言",
+      "time" : {
+        "start" : 1715834324999,
+        "stop" : 1715834325000,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "验证errcode是否与预期结果一致",
+        "time" : {
+          "start" : 1715834324999,
+          "stop" : 1715834325000,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "验证errmsg是否与预期结果一致",
+        "time" : {
+          "start" : 1715834325000,
+          "stop" : 1715834325000,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c720195ceb9a2eae",
+      "name" : "log",
+      "source" : "c720195ceb9a2eae.txt",
+      "type" : "text/plain",
+      "size" : 1651
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_fixture::0",
+    "time" : {
+      "start" : 1715834355115,
+      "stop" : 1715834355115,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "上传卡券"
+  }, {
+    "name" : "story",
+    "value" : "上传卡券图片接口"
+  }, {
+    "name" : "epic",
+    "value" : "微信项目"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.kaquan"
+  }, {
+    "name" : "suite",
+    "value" : "test_upload_kaquan"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_upload_img"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IG8PJM0"
+  }, {
+    "name" : "thread",
+    "value" : "4692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.kaquan.test_upload_kaquan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'caseName': '【上传卡券图片接口】用例6：文件大小超过1MB', 'method': 'post', 'url': '/cgi-bin/media/uploadimg', 'files': {'buffer': '大于1MB.jpg'}, 'excepted': {'errcode': 40009, 'errmsg': 'invalid image size', 'statusCode': 200}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7333b653a556cedd.json",
+  "parameterValues" : [ "{'caseName': '【上传卡券图片接口】用例6：文件大小超过1MB', 'method': 'post', 'url': '/cgi-bin/media/uploadimg', 'files': {'buffer': '大于1MB.jpg'}, 'excepted': {'errcode': 40009, 'errmsg': 'invalid image size', 'statusCode': 200}}" ]
+}

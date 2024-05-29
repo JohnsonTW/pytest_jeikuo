@@ -1,0 +1,5 @@
+2024-05-16 12:38:45 DEBUG Starting new HTTPS connection (1): api.weixin.qq.com:443
+2024-05-16 12:38:45 DEBUG https://api.weixin.qq.com:443 "POST /customservice/kfaccount/add?access_token=80_X82t0TCzj4kqvz_hPUNm_fwwH6n5C02pX2-TiwEO29cTixMpxdwrzI6VtbvtcfIt25uj478i0demenIv-ZIgYwQKZIQZ9vzepHSTWxF5JUIdb2fbL24UKOPp12AELIdAGAVCZ HTTP/1.1" 200 115
+2024-05-16 12:38:45 INFO 【创建客服账号接口】用例2：参数客服账号已存在- 测试用例,执行成功！实际响应码为：200
+2024-05-16 12:38:45 INFO 【创建客服账号接口】用例2：参数客服账号已存在- 测试用例,执行成功！实际响应结果为：{'errcode': 65406, 'errmsg': 'custom service account exists hint: [SFHcdMfVf-jL_0oA] rid: 66458dd5-078ecd66-5498183b'}
+2024-05-16 12:38:45 INFO 【创建客服账号接口】用例2：参数客服账号已存在- 测试用例,执行成功！实际响应结果为：{"errcode": 65406, "errmsg": "custom service account exists hint: [SFHcdMfVf-jL_0oA] rid: 66458dd5-078ecd66-5498183b"}

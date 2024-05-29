@@ -1,0 +1,5 @@
+2024-05-16 12:38:37 DEBUG Starting new HTTPS connection (1): api.weixin.qq.com:443
+2024-05-16 12:38:38 DEBUG https://api.weixin.qq.com:443 "POST /cgi-bin/tags/members/getblacklist?access_token=80_X82t0TCzj4kqvz_hPUNm_fwwH6n5C02pX2-TiwEO29cTixMpxdwrzI6VtbvtcfIt25uj478i0demenIv-ZIgYwQKZIQZ9vzepHSTWxF5JUIdb2fbL24UKOPp12AELIdAGAVCZ HTTP/1.1" 200 210
+2024-05-16 12:38:38 INFO 【获取微信黑名单列表】用例2：参数begin_openid为null- 测试用例,执行成功！实际响应码为：200
+2024-05-16 12:38:38 INFO 【获取微信黑名单列表】用例2：参数begin_openid为null- 测试用例,执行成功！实际响应结果为：{"total": 4, "count": 4, "data": {"openid": ["oDqjY5zgUEgHwL0Tas7HJv566208", "oDqjY5xYp972631jH7IsDR3pl2x0", "oDqjY5-wrnuyN9OBXaN0md8rLsyQ", "oDqjY50sO3UCivurTfvnATmCMuN0"]}, "next_openid": "oDqjY50sO3UCivurTfvnATmCMuN0"}
+2024-05-16 12:38:38 INFO 【获取微信黑名单列表】用例2：参数begin_openid为null- 测试用例,执行成功！实际响应结果为：{"total": 4, "count": 4, "data": {"openid": ["oDqjY5zgUEgHwL0Tas7HJv566208", "oDqjY5xYp972631jH7IsDR3pl2x0", "oDqjY5-wrnuyN9OBXaN0md8rLsyQ", "oDqjY50sO3UCivurTfvnATmCMuN0"]}, "next_openid": "oDqjY50sO3UCivurTfvnATmCMuN0"}

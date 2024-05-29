@@ -1,0 +1,6 @@
+2024-05-16 12:38:38 INFO 该文件不是一张图片
+2024-05-16 12:38:38 DEBUG Starting new HTTPS connection (1): api.weixin.qq.com:443
+2024-05-16 12:38:39 DEBUG https://api.weixin.qq.com:443 "POST /cgi-bin/media/uploadimg?access_token=80_X82t0TCzj4kqvz_hPUNm_fwwH6n5C02pX2-TiwEO29cTixMpxdwrzI6VtbvtcfIt25uj478i0demenIv-ZIgYwQKZIQZ9vzepHSTWxF5JUIdb2fbL24UKOPp12AELIdAGAVCZ HTTP/1.1" 200 102
+2024-05-16 12:38:39 INFO 【上传卡券图片接口】用例1：files参数为空- 测试用例,执行成功！实际响应码为：200
+2024-05-16 12:38:39 INFO 【上传卡券图片接口】用例1：files参数为空- 测试用例,执行成功！实际响应结果为：{'errcode': 41005, 'errmsg': 'media data missing hint: [IlxgAa03199037] rid: 66458dcf-392fe2fe-3deefc94'}
+2024-05-16 12:38:39 INFO 【上传卡券图片接口】用例1：files参数为空- 测试用例,执行成功！实际响应结果为：{"errcode": 41005, "errmsg": "media data missing hint: [IlxgAa03199037] rid: 66458dcf-392fe2fe-3deefc94"}

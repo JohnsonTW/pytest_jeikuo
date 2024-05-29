@@ -1,0 +1,8 @@
+2024-05-16 12:38:54 DEBUG STREAM b'IHDR' 16 13
+2024-05-16 12:38:54 DEBUG STREAM b'IDAT' 41 8192
+2024-05-16 12:38:54 INFO 该图片的格式为：PNG
+2024-05-16 12:38:54 DEBUG Starting new HTTPS connection (1): api.weixin.qq.com:443
+2024-05-16 12:38:54 DEBUG https://api.weixin.qq.com:443 "POST /customservice/kfaccount/uploadheadimg?access_token=80_X82t0TCzj4kqvz_hPUNm_fwwH6n5C02pX2-TiwEO29cTixMpxdwrzI6VtbvtcfIt25uj478i0demenIv-ZIgYwQKZIQZ9vzepHSTWxF5JUIdb2fbL24UKOPp12AELIdAGAVCZ&kf_account=%E6%97%A0%E6%95%88%E7%9A%84%E5%AE%A2%E6%9C%8D%E8%B4%A6%E5%8F%B7 HTTP/1.1" 200 110
+2024-05-16 12:38:54 INFO 【上传客服头像接口】用例6：无效的客服账号- 测试用例,执行成功！实际响应码为：200
+2024-05-16 12:38:54 INFO 【上传客服头像接口】用例6：无效的客服账号- 测试用例,执行成功！实际响应结果为：{'errcode': 65401, 'errmsg': 'invalid custom service account hint: [SFHcFeYWO-] rid: 66458dde-16c89299-66f9eef6'}
+2024-05-16 12:38:54 INFO 【上传客服头像接口】用例6：无效的客服账号- 测试用例,执行成功！实际响应结果为：{"errcode": 65401, "errmsg": "invalid custom service account hint: [SFHcFeYWO-] rid: 66458dde-16c89299-66f9eef6"}

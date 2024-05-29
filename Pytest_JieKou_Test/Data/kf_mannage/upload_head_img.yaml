@@ -1,0 +1,72 @@
+-
+  caseName: 【上传客服头像接口】用例1：参数全部正确(jpeg格式)
+  method: &method post
+  url: &url /customservice/kfaccount/uploadheadimg
+  params:
+    kf_account: &kf_account test1@test
+  files:
+    media: tx1.jpeg
+  excepted:
+    errcode: 0
+    errmsg: ok
+    statusCode: &statusCode 200
+-
+  caseName: 【上传客服头像接口】用例2：头像size超过限制大小
+  method: *method
+  url: *url
+  params:
+    kf_account: *kf_account
+  files:
+    media: size_over.jpg
+  excepted:
+    errcode: 45002
+    errmsg: content size out of limit
+    statusCode: *statusCode
+-
+  caseName: 【上传客服头像接口】用例3：参数全部正确(png格式)
+  method: *method
+  url: *url
+  params:
+    kf_account: *kf_account
+  files:
+    media: tx2.png
+  excepted:
+    errcode: 0
+    errmsg: ok
+    statusCode: *statusCode
+-
+  caseName: 【上传客服头像接口】用例4：头像上传为空
+  method: *method
+  url: *url
+  params:
+    kf_account: *kf_account
+  files:
+    media: ""
+  excepted:
+    errcode: 41005
+    errmsg: media data missing
+    statusCode: *statusCode
+-
+  caseName: 【上传客服头像接口】用例5：头像上传格式错误（不支持的媒体类型）
+  method: *method
+  url: *url
+  params:
+    kf_account: *kf_account
+  files:
+    media: 测试.bmp
+  excepted:
+    errcode: 40005
+    errmsg: invalid file type
+    statusCode: *statusCode
+-
+  caseName: 【上传客服头像接口】用例6：无效的客服账号
+  method: *method
+  url: *url
+  params:
+    kf_account: 无效的客服账号
+  files:
+    media: tx3.png
+  excepted:
+    errcode: 65401
+    errmsg: invalid custom service account
+    statusCode: *statusCode

@@ -1,0 +1,29 @@
+-
+  caseName: 【设置客服信息接口】用例1：参数全部正确
+  method: &method post
+  url: &url /customservice/kfaccount/update
+  nickname: &nickname ${generate_random_string(16)}
+  excepted:
+    errcode: 0
+    errmsg: ok
+    statusCode: &statusCode 200
+-
+  caseName: 【设置客服信息接口】用例2：客服账号kf_account参数为空
+  method: *method
+  url: *url
+  data:
+    kf_account: ""
+    nickname: *nickname
+  excepted:
+    errcode: 65401
+    errmsg: invalid custom service account
+    statusCode: *statusCode
+-
+  caseName: 【设置客服信息接口】用例3：请求body数据为空
+  method: *method
+  url: *url
+  data:
+  excepted:
+    errcode: 44002
+    errmsg: empty post data
+    statusCode: *statusCode

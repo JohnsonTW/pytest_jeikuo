@@ -1,0 +1,32 @@
+# next_openid上一批列表的最后一个OPENID，不填默认从头开始拉取
+-
+  caseName: 【获取用户列表接口】用例1：所有参数正常
+  method: &method get
+  url: &url /cgi-bin/user/get
+  params:
+    next_openid:
+  excepted:
+    text1: total
+    text2: count
+    text3: next_openid
+    statusCode: &statusCode 200
+-
+  caseName: 【获取用户列表接口】用例2：next_openid无效为数字，参数无效
+  method: *method
+  url: *url
+  params:
+    next_openid: 1
+  excepted:
+    errcode: 40003
+    errmsg: invalid openid hint
+    statusCode: *statusCode
+-
+  caseName: 【获取用户列表接口】用例3：next_openid为大小写字母，参数无效
+  method: *method
+  url: *url
+  params:
+    next_openid: Affdex
+  excepted:
+    errcode: 40003
+    errmsg: invalid openid hint
+    statusCode: 200

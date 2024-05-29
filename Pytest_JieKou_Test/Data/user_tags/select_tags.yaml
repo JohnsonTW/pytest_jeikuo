@@ -1,0 +1,10 @@
+-
+  caseName: 【查询用户标签接口】用例3：参数正确
+  method: &method get
+  url: &url /cgi-bin/tags/get
+  excepted:
+    text1: tags
+  statusCode: &statusCode 200
+
+
+

@@ -1,0 +1,12 @@
+2024-05-16 12:38:50 DEBUG tag: Artist (315) - type: string (2) Tag Location: 22 - Data Location: 86 - value: b'Meitu\x00'
+2024-05-16 12:38:50 DEBUG tag: ImageWidth (256) - type: long (4) - value: b'\x00\x00\x10\x00'
+2024-05-16 12:38:50 DEBUG tag: ImageLength (257) - type: long (4) - value: b'\x00\x00\x10\x00'
+2024-05-16 12:38:50 DEBUG tag: Software (305) - type: string (2) Tag Location: 58 - Data Location: 92 - value: b'Meitu 100700\x00'
+2024-05-16 12:38:50 DEBUG tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00i'
+2024-05-16 12:38:50 DEBUG tag: Orientation (274) - type: long (4) - value: b'\x00\x00\x00\x00'
+2024-05-16 12:38:50 INFO 该图片的格式为：JPEG
+2024-05-16 12:38:50 DEBUG Starting new HTTPS connection (1): api.weixin.qq.com:443
+2024-05-16 12:38:52 DEBUG https://api.weixin.qq.com:443 "POST /customservice/kfaccount/uploadheadimg?access_token=80_X82t0TCzj4kqvz_hPUNm_fwwH6n5C02pX2-TiwEO29cTixMpxdwrzI6VtbvtcfIt25uj478i0demenIv-ZIgYwQKZIQZ9vzepHSTWxF5JUIdb2fbL24UKOPp12AELIdAGAVCZ&kf_account=test1%40test HTTP/1.1" 200 86
+2024-05-16 12:38:52 INFO 【上传客服头像接口】用例2：头像size超过限制大小- 测试用例,执行成功！实际响应码为：200
+2024-05-16 12:38:52 INFO 【上传客服头像接口】用例2：头像size超过限制大小- 测试用例,执行成功！实际响应结果为：{'errcode': 45002, 'errmsg': 'content size out of limit rid: 66458dda-6e513c60-28287d66'}
+2024-05-16 12:38:52 INFO 【上传客服头像接口】用例2：头像size超过限制大小- 测试用例,执行成功！实际响应结果为：{"errcode": 45002, "errmsg": "content size out of limit rid: 66458dda-6e513c60-28287d66"}

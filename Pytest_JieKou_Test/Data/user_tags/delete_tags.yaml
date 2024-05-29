@@ -1,0 +1,80 @@
+-
+  caseName: 【删除用户标签接口】用例1：全部参数正确
+  method: &method post
+  url: &url /cgi-bin/tags/delete
+  data:
+    tag:
+      id: ${add_tags()}
+  errcode: 0
+  errmsg: ok
+  statusCode: &statusCode 200
+-
+  caseName: 【删除用户标签接口】用例2：删除用户标签-id参数为空/缺失
+  method: *method
+  url: *url
+  data:
+    tag:
+      id: null
+  errcode: 45058
+  errmsg: can't modify sys tag
+  statusCode: *statusCode
+-
+  caseName: 【删除用户标签接口】用例3：删除用户标签-参数id为小数
+  method: *method
+  url: *url
+  data:
+    tag:
+      id: user_manage.2222
+  errcode: 47001
+  errmsg: data format error
+  statusCode: *statusCode
+-
+  caseName: 【删除用户标签接口】用例4：删除用户标签-参数id为中文汉字
+  method: *method
+  url: *url
+  data:
+    tag:
+      id: 汉字
+  errcode: 47001
+  errmsg: data format error
+  statusCode: *statusCode
+-
+  caseName: 【删除用户标签接口】用例5：删除用户标签-参数id含特殊符号
+  method: *method
+  url: *url
+  data:
+    tag:
+      id: "@001"
+  errcode: 47001
+  errmsg: data format error
+  statusCode: *statusCode
+-
+  caseName: 【删除用户标签接口】用例6：删除用户标签-参数id为系统id=1
+  method: *method
+  url: *url
+  data:
+    tag:
+      id: 1
+  errcode: 45058
+  errmsg: can't modify sys tag
+  statusCode: *statusCode
+-
+  caseName: 【删除用户标签接口】用例7：删除用户标签-参数id为系统id=2
+  method: *method
+  url: *url
+  data:
+    tag:
+      id: 2
+  errcode: 45058
+  errmsg: can't modify sys tag
+  statusCode: *statusCode
+-
+  caseName: 【删除用户标签接口】用例8：删除用户标签-参数id为系统id=3
+  method: *method
+  url: *url
+  data:
+    tag:
+      id: 3
+  errcode: 45058
+  errmsg: can't modify sys tag
+  statusCode: *statusCode

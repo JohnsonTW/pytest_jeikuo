@@ -1,0 +1,144 @@
+{
+  "uid" : "d8f7f78192853101",
+  "name" : "test_batch_blackList[args4]",
+  "fullName" : "testcase.black_manage.test_batch_to_black.Test_userBlack#test_batch_blackList",
+  "historyId" : "bc0e68a6835f12a0cdc8fb94e5976a58",
+  "time" : {
+    "start" : 1715834315178,
+    "stop" : 1715834315491,
+    "duration" : 313
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_fixture",
+    "time" : {
+      "start" : 1715834313483,
+      "stop" : 1715834313488,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "执行接口",
+      "time" : {
+        "start" : 1715834315178,
+        "stop" : 1715834315485,
+        "duration" : 307
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应体断言",
+      "time" : {
+        "start" : 1715834315485,
+        "stop" : 1715834315487,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "845658c5b5d8ae6",
+      "name" : "log",
+      "source" : "845658c5b5d8ae6.txt",
+      "type" : "text/plain",
+      "size" : 989
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_fixture::0",
+    "time" : {
+      "start" : 1715834355115,
+      "stop" : 1715834355115,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "黑名单管理模块"
+  }, {
+    "name" : "epic",
+    "value" : "微信项目"
+  }, {
+    "name" : "story",
+    "value" : "拉黑用户至黑名单接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.black_manage"
+  }, {
+    "name" : "suite",
+    "value" : "test_batch_to_black"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_userBlack"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IG8PJM0"
+  }, {
+    "name" : "thread",
+    "value" : "4692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.black_manage.test_batch_to_black"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'caseName': '【拉黑用户至黑名单接口】用例5：openid为无效汉字', 'method': 'post', 'url': '/cgi-bin/tags/members/batchblacklist', 'data': {'openid_list': '测试数据'}, 'excepted': {'statusCode': 200, 'errcode': 40003, 'errmsg': 'invalid openid'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d8f7f78192853101.json",
+  "parameterValues" : [ "{'caseName': '【拉黑用户至黑名单接口】用例5：openid为无效汉字', 'method': 'post', 'url': '/cgi-bin/tags/members/batchblacklist', 'data': {'openid_list': '测试数据'}, 'excepted': {'statusCode': 200, 'errcode': 40003, 'errmsg': 'invalid openid'}}" ]
+}

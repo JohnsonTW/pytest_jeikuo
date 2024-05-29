@@ -1,0 +1,174 @@
+{
+  "uid" : "13ba7b8055642044",
+  "name" : "test_upload_kf_headImg[args0]",
+  "fullName" : "testcase.kf_mannage.test_upload_headImg.Test_kf#test_upload_kf_headImg",
+  "historyId" : "c78f87618dd5540566b90b3550ba6185",
+  "time" : {
+    "start" : 1715834329908,
+    "stop" : 1715834330426,
+    "duration" : 518
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_fixture",
+    "time" : {
+      "start" : 1715834313483,
+      "stop" : 1715834313488,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "执行接口",
+      "time" : {
+        "start" : 1715834329912,
+        "stop" : 1715834330422,
+        "duration" : 510
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "响应体断言",
+        "time" : {
+          "start" : 1715834330421,
+          "stop" : 1715834330422,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "验证errcode是否与预期结果一致",
+          "time" : {
+            "start" : 1715834330421,
+            "stop" : 1715834330421,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "验证errmsg是否与预期结果一致",
+          "time" : {
+            "start" : 1715834330421,
+            "stop" : 1715834330422,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 2,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6acc2acb01ff2672",
+      "name" : "log",
+      "source" : "6acc2acb01ff2672.txt",
+      "type" : "text/plain",
+      "size" : 1033
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_fixture::0",
+    "time" : {
+      "start" : 1715834355115,
+      "stop" : 1715834355115,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "客服管理模块"
+  }, {
+    "name" : "epic",
+    "value" : "微信项目"
+  }, {
+    "name" : "story",
+    "value" : "上传客服头像接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.kf_mannage"
+  }, {
+    "name" : "suite",
+    "value" : "test_upload_headImg"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_kf"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IG8PJM0"
+  }, {
+    "name" : "thread",
+    "value" : "4692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.kf_mannage.test_upload_headImg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'caseName': '【上传客服头像接口】用例1：参数全部正确(jpeg格式)', 'method': 'post', 'url': '/customservice/kfaccount/uploadheadimg', 'params': {'kf_account': 'test1@test'}, 'files': {'media': 'tx1.jpeg'}, 'excepted': {'errcode': 0, 'errmsg': 'ok', 'statusCode': 200}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13ba7b8055642044.json",
+  "parameterValues" : [ "{'caseName': '【上传客服头像接口】用例1：参数全部正确(jpeg格式)', 'method': 'post', 'url': '/customservice/kfaccount/uploadheadimg', 'params': {'kf_account': 'test1@test'}, 'files': {'media': 'tx1.jpeg'}, 'excepted': {'errcode': 0, 'errmsg': 'ok', 'statusCode': 200}}" ]
+}

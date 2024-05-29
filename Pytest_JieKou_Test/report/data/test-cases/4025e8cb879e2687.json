@@ -1,0 +1,144 @@
+{
+  "uid" : "4025e8cb879e2687",
+  "name" : "test_getTagsFans[args0]",
+  "fullName" : "testcase.user_tags.test_getTags_fans.Test_userTag#test_getTagsFans",
+  "historyId" : "c2023e5e80ee6b65abe9034efd1ad368",
+  "time" : {
+    "start" : 1715834349694,
+    "stop" : 1715834350091,
+    "duration" : 397
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_fixture",
+    "time" : {
+      "start" : 1715834313483,
+      "stop" : 1715834313488,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "执行接口：",
+      "time" : {
+        "start" : 1715834349694,
+        "stop" : 1715834350088,
+        "duration" : 394
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "断言响应体",
+      "time" : {
+        "start" : 1715834350088,
+        "stop" : 1715834350088,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f55741fec6724207",
+      "name" : "log",
+      "source" : "f55741fec6724207.txt",
+      "type" : "text/plain",
+      "size" : 615
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_fixture::0",
+    "time" : {
+      "start" : 1715834355115,
+      "stop" : 1715834355115,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户标签管理模块"
+  }, {
+    "name" : "epic",
+    "value" : "微信项目"
+  }, {
+    "name" : "story",
+    "value" : "获取标签下粉丝列表"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.user_tags"
+  }, {
+    "name" : "suite",
+    "value" : "test_getTags_fans"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_userTag"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IG8PJM0"
+  }, {
+    "name" : "thread",
+    "value" : "4692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.user_tags.test_getTags_fans"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'caseName': '【获取标签下粉丝列表】用例1：参数正确', 'method': 'post', 'url': '/cgi-bin/user/tag/get', 'data': {'tagid': '465', 'next_openid': None}, 'excepted': {'zd1': 'count'}, 'statusCode': 200}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4025e8cb879e2687.json",
+  "parameterValues" : [ "{'caseName': '【获取标签下粉丝列表】用例1：参数正确', 'method': 'post', 'url': '/cgi-bin/user/tag/get', 'data': {'tagid': '465', 'next_openid': None}, 'excepted': {'zd1': 'count'}, 'statusCode': 200}" ]
+}

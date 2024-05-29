@@ -1,0 +1,114 @@
+{
+  "uid" : "a9f20a935a2cb0a2",
+  "name" : "test_geToken[args3]",
+  "fullName" : "testcase.login.test_get_token.Test_geToken#test_geToken",
+  "historyId" : "3968f64074c5c4aa622d46cb080bb446",
+  "time" : {
+    "start" : 1715834335757,
+    "stop" : 1715834335887,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "执行接口",
+      "time" : {
+        "start" : 1715834335757,
+        "stop" : 1715834335883,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应体断言",
+      "time" : {
+        "start" : 1715834335883,
+        "stop" : 1715834335883,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "303240a2ecd50715",
+      "name" : "log",
+      "source" : "303240a2ecd50715.txt",
+      "type" : "text/plain",
+      "size" : 626
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "微信项目"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "获取token鉴权接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.login"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_token"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_geToken"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IG8PJM0"
+  }, {
+    "name" : "thread",
+    "value" : "4692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.login.test_get_token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'caseName': '【获取鉴权接口】用例4：appid参数错误', 'method': 'get', 'url': '/cgi-bin/token', 'params': {'grant_type': 'client_credential', 'appid': '错误数据', 'secret': '3a6dcf6ba33cd5b954574036111f1373'}, 'excepted': {'errcode': 40013, 'statusCode': 200}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a9f20a935a2cb0a2.json",
+  "parameterValues" : [ "{'caseName': '【获取鉴权接口】用例4：appid参数错误', 'method': 'get', 'url': '/cgi-bin/token', 'params': {'grant_type': 'client_credential', 'appid': '错误数据', 'secret': '3a6dcf6ba33cd5b954574036111f1373'}, 'excepted': {'errcode': 40013, 'statusCode': 200}}" ]
+}

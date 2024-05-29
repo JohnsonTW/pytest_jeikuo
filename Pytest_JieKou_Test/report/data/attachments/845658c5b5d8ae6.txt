@@ -1,0 +1,5 @@
+2024-05-16 12:38:35 DEBUG Starting new HTTPS connection (1): api.weixin.qq.com:443
+2024-05-16 12:38:35 DEBUG https://api.weixin.qq.com:443 "POST /cgi-bin/tags/members/batchblacklist?access_token=80_X82t0TCzj4kqvz_hPUNm_fwwH6n5C02pX2-TiwEO29cTixMpxdwrzI6VtbvtcfIt25uj478i0demenIv-ZIgYwQKZIQZ9vzepHSTWxF5JUIdb2fbL24UKOPp12AELIdAGAVCZ HTTP/1.1" 200 97
+2024-05-16 12:38:35 INFO 【拉黑用户至黑名单接口】用例5：openid为无效汉字- 测试用例,执行成功！实际响应码为：200
+2024-05-16 12:38:35 INFO 【拉黑用户至黑名单接口】用例5：openid为无效汉字- 测试用例,执行成功！实际响应结果为：{'errcode': 40003, 'errmsg': 'invalid openid hint: [SFHcSE6Vf-ja9] rid: 66458dcb-2755d3f7-210a61f6'}
+2024-05-16 12:38:35 INFO 【拉黑用户至黑名单接口】用例5：openid为无效汉字- 测试用例,执行成功！实际响应结果为：{"errcode": 40003, "errmsg": "invalid openid hint: [SFHcSE6Vf-ja9] rid: 66458dcb-2755d3f7-210a61f6"}

@@ -1,0 +1,7 @@
+2024-05-16 12:39:04 DEBUG Starting new HTTPS connection (1): api.weixin.qq.com:443
+2024-05-16 12:39:04 DEBUG https://api.weixin.qq.com:443 "POST /cgi-bin/tags/create?access_token=80_X82t0TCzj4kqvz_hPUNm_fwwH6n5C02pX2-TiwEO29cTixMpxdwrzI6VtbvtcfIt25uj478i0demenIv-ZIgYwQKZIQZ9vzepHSTWxF5JUIdb2fbL24UKOPp12AELIdAGAVCZ HTTP/1.1" 200 58
+2024-05-16 12:39:04 INFO 【创建用户标签接口】用例1：参数全部正确- 测试用例,执行成功！实际响应码为：200
+2024-05-16 12:39:04 INFO 实际name与预期一致，【实际name】：NS82O8reegTr6HWr4ULPgUr21AE7Cl，【预期name】NS82O8reegTr6HWr4ULPgUr21AE7Cl
+2024-05-16 12:39:04 DEBUG Starting new HTTPS connection (1): api.weixin.qq.com:443
+2024-05-16 12:39:05 DEBUG https://api.weixin.qq.com:443 "POST /cgi-bin/tags/delete?access_token=80_X82t0TCzj4kqvz_hPUNm_fwwH6n5C02pX2-TiwEO29cTixMpxdwrzI6VtbvtcfIt25uj478i0demenIv-ZIgYwQKZIQZ9vzepHSTWxF5JUIdb2fbL24UKOPp12AELIdAGAVCZ HTTP/1.1" 200 27
+2024-05-16 12:39:05 INFO 调用删除接口，清除测试数据-接口响应结果：{'errcode': 0, 'errmsg': 'ok'}

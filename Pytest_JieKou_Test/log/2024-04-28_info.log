@@ -1,0 +1,4 @@
+{"CreateTime": "2024-04-28 17:58:00", "filename": "Assert.py", "line": "47", "levelname": "INFO", "message": "【创建永久二维码ticket接口】用例1：参数全部正确- 测试用例,执行成功！实际响应码为：200"}
+{"CreateTime": "2024-04-28 17:58:00", "filename": "Assert.py", "line": "32", "levelname": "INFO", "message": "【创建永久二维码ticket接口】用例1：参数全部正确- 测试用例,执行成功！实际响应结果为：{"ticket": "gQH08DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyYjhWRHhNZUVmb0QxMDAwMHcwM2QAAgSZHS5mAwQAAAAA", "url": "http://weixin.qq.com/q/02b8VDxMeEfoD10000w03d"}"}
+{"CreateTime": "2024-04-28 17:58:00", "filename": "Assert.py", "line": "32", "levelname": "INFO", "message": "【创建永久二维码ticket接口】用例1：参数全部正确- 测试用例,执行成功！实际响应结果为：{"ticket": "gQH08DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyYjhWRHhNZUVmb0QxMDAwMHcwM2QAAgSZHS5mAwQAAAAA", "url": "http://weixin.qq.com/q/02b8VDxMeEfoD10000w03d"}"}
+{"CreateTime": "2024-04-28 17:58:00", "filename": "Assert.py", "line": "47", "levelname": "INFO", "message": "【通过ticket换取二维码接口】用例1：参数全部正确- 测试用例,执行成功！实际响应码为：200"}

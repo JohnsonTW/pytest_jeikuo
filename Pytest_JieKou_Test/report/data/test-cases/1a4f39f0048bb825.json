@@ -1,0 +1,144 @@
+{
+  "uid" : "1a4f39f0048bb825",
+  "name" : "test_UpdateTag[args2]",
+  "fullName" : "testcase.user_tags.test_updateTag.Test_userTag#test_UpdateTag",
+  "historyId" : "00f1d84de08e480dfbd5072bfb15d8bb",
+  "time" : {
+    "start" : 1715834351642,
+    "stop" : 1715834352140,
+    "duration" : 498
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_fixture",
+    "time" : {
+      "start" : 1715834313483,
+      "stop" : 1715834313488,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "执行接口：",
+      "time" : {
+        "start" : 1715834351642,
+        "stop" : 1715834352136,
+        "duration" : 494
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "断言响应体",
+      "time" : {
+        "start" : 1715834352136,
+        "stop" : 1715834352136,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "75d9f43a7465850e",
+      "name" : "log",
+      "source" : "75d9f43a7465850e.txt",
+      "type" : "text/plain",
+      "size" : 939
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_fixture::0",
+    "time" : {
+      "start" : 1715834355115,
+      "stop" : 1715834355115,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "修改用户标签接口"
+  }, {
+    "name" : "epic",
+    "value" : "微信项目"
+  }, {
+    "name" : "feature",
+    "value" : "用户标签管理模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.user_tags"
+  }, {
+    "name" : "suite",
+    "value" : "test_updateTag"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_userTag"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IG8PJM0"
+  }, {
+    "name" : "thread",
+    "value" : "4692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.user_tags.test_updateTag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'caseName': '【修改用户标签接口】用例3：参数id不存在', 'method': 'post', 'url': '/cgi-bin/tags/update', 'data': {'tag': {'id': 888888, 'name': 'hdJV7N6Oq5qBngo'}}, 'errcode': -1, 'errmsg': 'system error', 'statusCode': 200}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a4f39f0048bb825.json",
+  "parameterValues" : [ "{'caseName': '【修改用户标签接口】用例3：参数id不存在', 'method': 'post', 'url': '/cgi-bin/tags/update', 'data': {'tag': {'id': 888888, 'name': 'hdJV7N6Oq5qBngo'}}, 'errcode': -1, 'errmsg': 'system error', 'statusCode': 200}" ]
+}

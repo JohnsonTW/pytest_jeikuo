@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError",
+      "children" : [ {
+        "name" : "test_selectTags[args0]",
+        "uid" : "21d853705e71ebac",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1715834350411,
+          "stop" : 1715834350729,
+          "duration" : 318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'caseName': '【查询用户标签接口】用例3：参数正确', 'method': 'get', 'url': '/cgi-bin/tags/get', 'excepted': {'text1': '星标组', 'text2': 'tags'}, 'statusCode': 200}" ]
+      }, {
+        "name" : "test_UpdateTag[args11]",
+        "uid" : "e3919d8ddf0626fd",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1715834354799,
+          "stop" : 1715834355098,
+          "duration" : 299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'caseName': '【修改用户标签接口】用例12：参数name重复存在', 'method': 'post', 'url': '/cgi-bin/tags/update', 'data': {'tag': {'id': '722', 'name': '星标组'}}, 'errcode': 45157, 'errmsg': 'invalid tag name', 'statusCode': 200}" ]
+      } ],
+      "uid" : "a0017ad855102fea08b8682d27fec4ca"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

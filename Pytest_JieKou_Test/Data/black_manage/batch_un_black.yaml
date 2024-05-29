@@ -1,0 +1,39 @@
+-
+  caseName: 【取消拉黑用户至黑名单接口】用例1：参数access_token、openid_list都正确
+  method: &method post
+  url: &url /cgi-bin/tags/members/batchblacklist
+  data:
+    openid_list: ${select_user_list()}
+  excepted:
+    statusCode: &statusCode 200
+    errcode: 0
+    errmsg: ok
+-
+  caseName: 【取消拉黑用户至黑名单接口】用例2：openid为无效字符串
+  method: post
+  url: *url
+  data:
+    openid_list: 212h哈哈哈哈
+  excepted:
+    statusCode: *statusCode
+    errcode: 40003
+    errmsg: invalid openid
+-
+  caseName: 【取消拉黑用户至黑名单接口】用例3：请求body缺失
+  method: *method
+  url: *url
+  data:
+  excepted:
+    statusCode: *statusCode
+    errcode: 44002
+    errmsg: empty post data
+-
+  caseName: 【取消拉黑用户至黑名单接口】用例4：openid参数为空
+  method: *method
+  url: *url
+  data:
+    openid_list: ""
+  excepted:
+    statusCode: *statusCode
+    errcode: 40003
+    errmsg: invalid openid

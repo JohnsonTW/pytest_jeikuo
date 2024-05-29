@@ -1,0 +1,7 @@
+2024-05-16 12:38:57 DEBUG Starting new HTTPS connection (1): api.weixin.qq.com:443
+2024-05-16 12:38:57 DEBUG https://api.weixin.qq.com:443 "POST /cgi-bin/qrcode/create?access_token=80_X82t0TCzj4kqvz_hPUNm_fwwH6n5C02pX2-TiwEO29cTixMpxdwrzI6VtbvtcfIt25uj478i0demenIv-ZIgYwQKZIQZ9vzepHSTWxF5JUIdb2fbL24UKOPp12AELIdAGAVCZ HTTP/1.1" 200 167
+2024-05-16 12:38:57 INFO 【创建永久二维码ticket接口】用例1：参数全部正确- 测试用例,执行成功！实际响应码为：200
+2024-05-16 12:38:57 INFO 【创建永久二维码ticket接口】用例1：参数全部正确- 测试用例,执行成功！实际响应结果为：{"ticket": "gQEl8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyN2tjQndyZUVmb0QxMDAwME0wM1cAAgThjUVmAwQAAAAA", "url": "http://weixin.qq.com/q/027kcBwreEfoD10000M03W"}
+2024-05-16 12:38:57 INFO 【创建永久二维码ticket接口】用例1：参数全部正确- 测试用例,执行成功！实际响应结果为：{"ticket": "gQEl8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyN2tjQndyZUVmb0QxMDAwME0wM1cAAgThjUVmAwQAAAAA", "url": "http://weixin.qq.com/q/027kcBwreEfoD10000M03W"}
+2024-05-16 12:38:57 INFO 文件 ticket.yaml 创建成功。
+2024-05-16 12:38:57 INFO 文件 ticket_url.yaml 创建成功。

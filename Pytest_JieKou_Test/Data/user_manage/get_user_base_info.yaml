@@ -1,0 +1,43 @@
+-
+  caseName: 用例1：参数openid存在
+  method: &method post
+  url: &url /cgi-bin/user/info
+  params:
+    openid: &openid ${select_user_list()}
+    lang: &lang zh_CN
+  excepted:
+    statusCode: &statusCode 200
+    language: *lang
+-
+  caseName: 用例2：openid参数无效
+  method: *method
+  url: *url
+  params:
+    openid: TewFrGOIGreHIrOH12314
+    lang: *lang
+  excepted:
+    statusCode: *statusCode
+    errcode: 40003
+    errmsg: invalid openid
+-
+  caseName: 用例3：openid为null
+  method: *method
+  url: *url
+  params:
+    openid: null
+    lang: *lang
+  excepted:
+    statusCode: *statusCode
+    errcode: 40003
+    errmsg: invalid openid
+-
+  caseName: 用例4：openid为空
+  method: *method
+  url: *url
+  params:
+    openid:
+    lang: *lang
+  excepted:
+    statusCode: *statusCode
+    errcode: 40003
+    errmsg: invalid openid

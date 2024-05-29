@@ -1,0 +1,174 @@
+{
+  "uid" : "bd8c70c49a18cd17",
+  "name" : "test_del_kf[args0]",
+  "fullName" : "testcase.kf_mannage.test_kf.Test_kf#test_del_kf",
+  "historyId" : "18a6474163ff918bcb6a314adad02c69",
+  "time" : {
+    "start" : 1715834328395,
+    "stop" : 1715834328793,
+    "duration" : 398
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_fixture",
+    "time" : {
+      "start" : 1715834313483,
+      "stop" : 1715834313488,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "执行接口",
+      "time" : {
+        "start" : 1715834328395,
+        "stop" : 1715834328788,
+        "duration" : 393
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "断言响应体",
+      "time" : {
+        "start" : 1715834328788,
+        "stop" : 1715834328789,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "断言：errcode是否与预期结果一致",
+        "time" : {
+          "start" : 1715834328788,
+          "stop" : 1715834328789,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "断言：errmsg是否与预期结果一致",
+        "time" : {
+          "start" : 1715834328789,
+          "stop" : 1715834328789,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "9c0dcef2332214e2",
+      "name" : "log",
+      "source" : "9c0dcef2332214e2.txt",
+      "type" : "text/plain",
+      "size" : 868
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_fixture::0",
+    "time" : {
+      "start" : 1715834355115,
+      "stop" : 1715834355115,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "客服管理模块"
+  }, {
+    "name" : "epic",
+    "value" : "微信项目"
+  }, {
+    "name" : "story",
+    "value" : "删除客服账号接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.kf_mannage"
+  }, {
+    "name" : "suite",
+    "value" : "test_kf"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_kf"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IG8PJM0"
+  }, {
+    "name" : "thread",
+    "value" : "4692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.kf_mannage.test_kf"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'caseName': '【删除客服账号接口】用例1：参数全部正确', 'method': 'get', 'url': '/customservice/kfaccount/del', 'excepted': {'errcode': 0, 'errmsg': 'ok', 'statusCode': 200}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd8c70c49a18cd17.json",
+  "parameterValues" : [ "{'caseName': '【删除客服账号接口】用例1：参数全部正确', 'method': 'get', 'url': '/customservice/kfaccount/del', 'excepted': {'errcode': 0, 'errmsg': 'ok', 'statusCode': 200}}" ]
+}

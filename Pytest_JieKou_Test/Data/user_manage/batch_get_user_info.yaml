@@ -1,0 +1,66 @@
+-
+  caseName: 用例1：参数全部正确(多个用户)
+  method: &method post
+  url: &url /cgi-bin/user/info/batchget
+  data:
+    user_list:
+      - openid: &openid1 ${select_user_list()}
+        lang: &lang zh_CN
+      - openid: &openid2 ${select_user_list()}
+        lang: *lang
+  excepted:
+    statusCode: 200
+    text1: nickname
+    text2: openid
+-
+  caseName: 用例2：参数全部正确(单个用户)
+  method: *method
+  url: *url
+  data:
+    user_list:
+      - openid: *openid1
+        lang: *lang
+  excepted:
+    statusCode: 200
+    text1: user_info_list
+    text2: subscribe
+-
+  caseName: 用例3：存在单个无效的openid
+  method: *method
+  url: *url
+  data:
+    user_list:
+      - openid: ""
+        lang: *lang
+      - openid: *openid2
+        lang: *lang
+  excepted:
+    statusCode: 200
+    errcode: 40003
+    errmsg: invalid openid
+-
+  caseName: 用例4：存在多个无效的openid
+  method: *method
+  url: *url
+  data:
+    user_list:
+      - openid: ""
+        lang: *lang
+      - openid: ""
+        lang: *lang
+  excepted:
+    statusCode: 200
+    errcode: 40003
+    errmsg: invalid openid
+-
+  caseName: 用例5：empty post data
+  method: *method
+  url: *url
+  data:
+  excepted:
+    statusCode: 200
+    errcode: 44002
+    errmsg: empty post data
+
+
+

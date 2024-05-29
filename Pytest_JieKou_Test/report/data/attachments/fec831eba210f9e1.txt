@@ -1,0 +1,5 @@
+2024-05-16 12:38:36 DEBUG Starting new HTTPS connection (1): api.weixin.qq.com:443
+2024-05-16 12:38:36 DEBUG https://api.weixin.qq.com:443 "POST /cgi-bin/tags/members/batchblacklist?access_token=80_X82t0TCzj4kqvz_hPUNm_fwwH6n5C02pX2-TiwEO29cTixMpxdwrzI6VtbvtcfIt25uj478i0demenIv-ZIgYwQKZIQZ9vzepHSTWxF5JUIdb2fbL24UKOPp12AELIdAGAVCZ HTTP/1.1" 200 98
+2024-05-16 12:38:36 INFO 【取消拉黑用户至黑名单接口】用例3：请求body缺失- 测试用例,执行成功！实际响应码为：200
+2024-05-16 12:38:36 INFO 【取消拉黑用户至黑名单接口】用例3：请求body缺失- 测试用例,执行成功！实际响应结果为：{'errcode': 44002, 'errmsg': 'empty post data hint: [SFHc2Hj2e-IGy] rid: 66458dcc-49a67bb5-7c52837d'}
+2024-05-16 12:38:36 INFO 【取消拉黑用户至黑名单接口】用例3：请求body缺失- 测试用例,执行成功！实际响应结果为：{"errcode": 44002, "errmsg": "empty post data hint: [SFHc2Hj2e-IGy] rid: 66458dcc-49a67bb5-7c52837d"}

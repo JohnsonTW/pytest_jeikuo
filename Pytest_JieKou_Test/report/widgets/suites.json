@@ -1,0 +1,81 @@
+{
+  "total" : 7,
+  "items" : [ {
+    "uid" : "e3dc7863c97028747516b7a1a106fa78",
+    "name" : "testcase.user_tags",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 27,
+      "unknown" : 0,
+      "total" : 29
+    }
+  }, {
+    "uid" : "0e06d3d41384ef4063b594e4b7add3f2",
+    "name" : "testcase.kf_mannage",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 18,
+      "unknown" : 0,
+      "total" : 18
+    }
+  }, {
+    "uid" : "61dad38363db8402321709515921802a",
+    "name" : "testcase.user_manage",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 17,
+      "unknown" : 0,
+      "total" : 17
+    }
+  }, {
+    "uid" : "bc65b2c58272be1779b1ec981f3e1c65",
+    "name" : "testcase.black_manage",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 13
+    }
+  }, {
+    "uid" : "e46053f8cfb9c597ea92a1f8cadf732c",
+    "name" : "testcase.login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "b03e5559ccac9ba7337fab0900e61efe",
+    "name" : "testcase.kaquan",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "ea787414391417f3f7faaff8f0a3000c",
+    "name" : "testcase.qrcode",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

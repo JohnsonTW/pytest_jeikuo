@@ -1,0 +1,174 @@
+{
+  "uid" : "d6a0331361037859",
+  "name" : "test_update_user_remark[args2]",
+  "fullName" : "testcase.user_manage.test_update_user_remark.Test_user_manage#test_update_user_remark",
+  "historyId" : "ab8d77d76409b2abcae24ef036778900",
+  "time" : {
+    "start" : 1715834343129,
+    "stop" : 1715834343538,
+    "duration" : 409
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_fixture",
+    "time" : {
+      "start" : 1715834313483,
+      "stop" : 1715834313488,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "执行接口",
+      "time" : {
+        "start" : 1715834343129,
+        "stop" : 1715834343533,
+        "duration" : 404
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应体断言",
+      "time" : {
+        "start" : 1715834343533,
+        "stop" : 1715834343535,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "errcode的实际结果是否与预期一致",
+        "time" : {
+          "start" : 1715834343534,
+          "stop" : 1715834343534,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "errmsg的实际结果是否与预期一致",
+        "time" : {
+          "start" : 1715834343534,
+          "stop" : 1715834343535,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "94c3446f2129ef1f",
+      "name" : "log",
+      "source" : "94c3446f2129ef1f.txt",
+      "type" : "text/plain",
+      "size" : 1000
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_fixture::0",
+    "time" : {
+      "start" : 1715834355115,
+      "stop" : 1715834355115,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户管理模块"
+  }, {
+    "name" : "story",
+    "value" : "设置用户备注名接口"
+  }, {
+    "name" : "epic",
+    "value" : "微信项目"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.user_manage"
+  }, {
+    "name" : "suite",
+    "value" : "test_update_user_remark"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_user_manage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IG8PJM0"
+  }, {
+    "name" : "thread",
+    "value" : "4692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.user_manage.test_update_user_remark"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'caseName': '【设置用户备注名接口】用例3：openid参数不符合规则', 'method': 'post', 'url': '/cgi-bin/user/info/updateremark', 'data': {'openid': '2144325', 'remark': 'RzzPujc0hE4Gt5iMro3FeOUvLknyjb'}, 'excepted': {'errcode': 40003, 'errmsg': 'invalid openid hint', 'statusCode': 200}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d6a0331361037859.json",
+  "parameterValues" : [ "{'caseName': '【设置用户备注名接口】用例3：openid参数不符合规则', 'method': 'post', 'url': '/cgi-bin/user/info/updateremark', 'data': {'openid': '2144325', 'remark': 'RzzPujc0hE4Gt5iMro3FeOUvLknyjb'}, 'excepted': {'errcode': 40003, 'errmsg': 'invalid openid hint', 'statusCode': 200}}" ]
+}

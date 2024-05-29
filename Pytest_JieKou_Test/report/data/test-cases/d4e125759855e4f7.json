@@ -1,0 +1,144 @@
+{
+  "uid" : "d4e125759855e4f7",
+  "name" : "test_UpdateTag[args9]",
+  "fullName" : "testcase.user_tags.test_updateTag.Test_userTag#test_UpdateTag",
+  "historyId" : "b9377f1340d25d8bf9cba48f62adea64",
+  "time" : {
+    "start" : 1715834354200,
+    "stop" : 1715834354510,
+    "duration" : 310
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_fixture",
+    "time" : {
+      "start" : 1715834313483,
+      "stop" : 1715834313488,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "执行接口：",
+      "time" : {
+        "start" : 1715834354201,
+        "stop" : 1715834354505,
+        "duration" : 304
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "断言响应体",
+      "time" : {
+        "start" : 1715834354505,
+        "stop" : 1715834354506,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a0aefd41ca7542a4",
+      "name" : "log",
+      "source" : "a0aefd41ca7542a4.txt",
+      "type" : "text/plain",
+      "size" : 1016
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_fixture::0",
+    "time" : {
+      "start" : 1715834355115,
+      "stop" : 1715834355115,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "修改用户标签接口"
+  }, {
+    "name" : "epic",
+    "value" : "微信项目"
+  }, {
+    "name" : "feature",
+    "value" : "用户标签管理模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.user_tags"
+  }, {
+    "name" : "suite",
+    "value" : "test_updateTag"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_userTag"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IG8PJM0"
+  }, {
+    "name" : "thread",
+    "value" : "4692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.user_tags.test_updateTag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'caseName': '【修改用户标签接口】用例10：参数id格式错误-为中文汉字', 'method': 'post', 'url': '/cgi-bin/tags/update', 'data': {'tag': {'id': '哈哈哈', 'name': 'LD2CskXlCJDwgQe'}}, 'errcode': 47001, 'errmsg': 'data format erro', 'statusCode': 200}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4e125759855e4f7.json",
+  "parameterValues" : [ "{'caseName': '【修改用户标签接口】用例10：参数id格式错误-为中文汉字', 'method': 'post', 'url': '/cgi-bin/tags/update', 'data': {'tag': {'id': '哈哈哈', 'name': 'LD2CskXlCJDwgQe'}}, 'errcode': 47001, 'errmsg': 'data format erro', 'statusCode': 200}" ]
+}

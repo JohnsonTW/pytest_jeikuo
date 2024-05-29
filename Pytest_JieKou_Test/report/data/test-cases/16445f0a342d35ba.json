@@ -1,0 +1,144 @@
+{
+  "uid" : "16445f0a342d35ba",
+  "name" : "test_getUserList[args1]",
+  "fullName" : "testcase.black_manage.test_black_list.Test_userBlack#test_getUserList",
+  "historyId" : "bf30dafd55e611667275be80285a2c00",
+  "time" : {
+    "start" : 1715834317637,
+    "stop" : 1715834318038,
+    "duration" : 401
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_fixture",
+    "time" : {
+      "start" : 1715834313483,
+      "stop" : 1715834313488,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "【获取微信黑名单列表】用例2：参数begin_openid为null",
+      "time" : {
+        "start" : 1715834317637,
+        "stop" : 1715834318034,
+        "duration" : 397
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应体断言",
+      "time" : {
+        "start" : 1715834318034,
+        "stop" : 1715834318034,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "306d1cd6a8f2fea5",
+      "name" : "log",
+      "source" : "306d1cd6a8f2fea5.txt",
+      "type" : "text/plain",
+      "size" : 1233
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_fixture::0",
+    "time" : {
+      "start" : 1715834355115,
+      "stop" : 1715834355115,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "黑名单管理模块"
+  }, {
+    "name" : "epic",
+    "value" : "微信项目"
+  }, {
+    "name" : "story",
+    "value" : "获取微信黑名单"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.black_manage"
+  }, {
+    "name" : "suite",
+    "value" : "test_black_list"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_userBlack"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IG8PJM0"
+  }, {
+    "name" : "thread",
+    "value" : "4692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.black_manage.test_black_list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'caseName': '【获取微信黑名单列表】用例2：参数begin_openid为null', 'method': 'post', 'url': '/cgi-bin/tags/members/getblacklist', 'data': {'begin_openid': None}, 'excepted': {'statusCode': 200, 'text1': 'total', 'text2': 'count'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "16445f0a342d35ba.json",
+  "parameterValues" : [ "{'caseName': '【获取微信黑名单列表】用例2：参数begin_openid为null', 'method': 'post', 'url': '/cgi-bin/tags/members/getblacklist', 'data': {'begin_openid': None}, 'excepted': {'statusCode': 200, 'text1': 'total', 'text2': 'count'}}" ]
+}

@@ -1,0 +1,5 @@
+2024-05-16 12:39:09 DEBUG Starting new HTTPS connection (1): api.weixin.qq.com:443
+2024-05-16 12:39:09 DEBUG https://api.weixin.qq.com:443 "POST /cgi-bin/tags/delete?access_token=80_X82t0TCzj4kqvz_hPUNm_fwwH6n5C02pX2-TiwEO29cTixMpxdwrzI6VtbvtcfIt25uj478i0demenIv-ZIgYwQKZIQZ9vzepHSTWxF5JUIdb2fbL24UKOPp12AELIdAGAVCZ HTTP/1.1" 200 106
+2024-05-16 12:39:09 INFO 【删除用户标签接口】用例8：删除用户标签-参数id为系统id=3- 测试用例,执行成功！实际响应码为：200
+2024-05-16 12:39:09 INFO 【删除用户标签接口】用例8：删除用户标签-参数id为系统id=3- 测试用例,执行成功！实际响应结果为：{'errcode': 45058, 'errmsg': "can't modify sys tag hint: [tFHclxtEO-BjZ8Aa] rid: 66458ded-5f5563b9-5ef9abe3"}
+2024-05-16 12:39:09 INFO 【删除用户标签接口】用例8：删除用户标签-参数id为系统id=3- 测试用例,执行成功！实际响应结果为：{"errcode": 45058, "errmsg": "can't modify sys tag hint: [tFHclxtEO-BjZ8Aa] rid: 66458ded-5f5563b9-5ef9abe3"}

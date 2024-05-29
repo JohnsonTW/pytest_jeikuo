@@ -1,0 +1,6 @@
+2024-05-16 12:38:40 INFO 该文件不是一张图片
+2024-05-16 12:38:40 DEBUG Starting new HTTPS connection (1): api.weixin.qq.com:443
+2024-05-16 12:38:40 DEBUG https://api.weixin.qq.com:443 "POST /cgi-bin/media/uploadimg?access_token=80_X82t0TCzj4kqvz_hPUNm_fwwH6n5C02pX2-TiwEO29cTixMpxdwrzI6VtbvtcfIt25uj478i0demenIv-ZIgYwQKZIQZ9vzepHSTWxF5JUIdb2fbL24UKOPp12AELIdAGAVCZ HTTP/1.1" 200 101
+2024-05-16 12:38:40 INFO 【上传卡券图片接口】用例5：files格式为mp3- 测试用例,执行成功！实际响应码为：200
+2024-05-16 12:38:40 INFO 【上传卡券图片接口】用例5：files格式为mp3- 测试用例,执行成功！实际响应结果为：{'errcode': 40005, 'errmsg': 'invalid file type hint: [1.sxya03219020] rid: 66458dd0-60657930-2f380cce'}
+2024-05-16 12:38:40 INFO 【上传卡券图片接口】用例5：files格式为mp3- 测试用例,执行成功！实际响应结果为：{"errcode": 40005, "errmsg": "invalid file type hint: [1.sxya03219020] rid: 66458dd0-60657930-2f380cce"}

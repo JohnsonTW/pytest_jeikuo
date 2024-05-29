@@ -1,0 +1,1317 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "微信项目",
+    "children" : [ {
+      "name" : "黑名单管理模块",
+      "children" : [ {
+        "name" : "拉黑用户至黑名单接口",
+        "children" : [ {
+          "name" : "test_batch_blackList[args0]",
+          "uid" : "139d82eb7d6d810b",
+          "parentUid" : "a04df17e820f5f91a4312575fec28407",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834313489,
+            "stop" : 1715834314045,
+            "duration" : 556
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【拉黑用户至黑名单接口】用例1：openid_list参数正确', 'method': 'post', 'url': '/cgi-bin/tags/members/batchblacklist', 'data': {'openid_list': 'oDqjY5zgUEgHwL0Tas7HJv566208'}, 'excepted': {'statusCode': 200, 'errcode': 0, 'errmsg': 'ok'}}" ]
+        }, {
+          "name" : "test_batch_blackList[args1]",
+          "uid" : "1330a828d837862a",
+          "parentUid" : "a04df17e820f5f91a4312575fec28407",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834314053,
+            "stop" : 1715834314457,
+            "duration" : 404
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【拉黑用户至黑名单接口】用例2：openid为无效数字', 'method': 'post', 'url': '/cgi-bin/tags/members/batchblacklist', 'data': {'openid_list': 121}, 'excepted': {'statusCode': 200, 'errcode': 40003, 'errmsg': 'invalid openid'}}" ]
+        }, {
+          "name" : "test_batch_blackList[args2]",
+          "uid" : "228bbbd2a893d0b2",
+          "parentUid" : "a04df17e820f5f91a4312575fec28407",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834314465,
+            "stop" : 1715834314819,
+            "duration" : 354
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【拉黑用户至黑名单接口】用例3：请求body缺失', 'method': 'post', 'url': '/cgi-bin/tags/members/batchblacklist', 'data': None, 'excepted': {'statusCode': 200, 'errcode': 44002, 'errmsg': 'empty post data'}}" ]
+        }, {
+          "name" : "test_batch_blackList[args3]",
+          "uid" : "473922d8e7c87b5c",
+          "parentUid" : "a04df17e820f5f91a4312575fec28407",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834314827,
+            "stop" : 1715834315172,
+            "duration" : 345
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【拉黑用户至黑名单接口】用例4：参数openid_list为空', 'method': 'post', 'url': '/cgi-bin/tags/members/batchblacklist', 'data': {'openid_list': ''}, 'excepted': {'statusCode': 200, 'errcode': 40003, 'errmsg': 'invalid openid'}}" ]
+        }, {
+          "name" : "test_batch_blackList[args4]",
+          "uid" : "d8f7f78192853101",
+          "parentUid" : "a04df17e820f5f91a4312575fec28407",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834315178,
+            "stop" : 1715834315491,
+            "duration" : 313
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【拉黑用户至黑名单接口】用例5：openid为无效汉字', 'method': 'post', 'url': '/cgi-bin/tags/members/batchblacklist', 'data': {'openid_list': '测试数据'}, 'excepted': {'statusCode': 200, 'errcode': 40003, 'errmsg': 'invalid openid'}}" ]
+        } ],
+        "uid" : "a04df17e820f5f91a4312575fec28407"
+      }, {
+        "name" : "取消拉黑用户至黑名单接口",
+        "children" : [ {
+          "name" : "test_batch_unblackList[args0]",
+          "uid" : "4f467ba7b495db99",
+          "parentUid" : "1a76a20b05a4d58ed6599caa862a1f06",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834315503,
+            "stop" : 1715834315993,
+            "duration" : 490
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【取消拉黑用户至黑名单接口】用例1：参数access_token、openid_list都正确', 'method': 'post', 'url': '/cgi-bin/tags/members/batchblacklist', 'data': {'openid_list': 'oDqjY50sO3UCivurTfvnATmCMuN0'}, 'excepted': {'statusCode': 200, 'errcode': 0, 'errmsg': 'ok'}}" ]
+        }, {
+          "name" : "test_batch_unblackList[args1]",
+          "uid" : "afea6f9c5c934c5",
+          "parentUid" : "1a76a20b05a4d58ed6599caa862a1f06",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834316001,
+            "stop" : 1715834316399,
+            "duration" : 398
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【取消拉黑用户至黑名单接口】用例2：openid为无效字符串', 'method': 'post', 'url': '/cgi-bin/tags/members/batchblacklist', 'data': {'openid_list': '212h哈哈哈哈'}, 'excepted': {'statusCode': 200, 'errcode': 40003, 'errmsg': 'invalid openid'}}" ]
+        }, {
+          "name" : "test_batch_unblackList[args2]",
+          "uid" : "45bb54ca3a8bfcea",
+          "parentUid" : "1a76a20b05a4d58ed6599caa862a1f06",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834316407,
+            "stop" : 1715834316688,
+            "duration" : 281
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【取消拉黑用户至黑名单接口】用例3：请求body缺失', 'method': 'post', 'url': '/cgi-bin/tags/members/batchblacklist', 'data': None, 'excepted': {'statusCode': 200, 'errcode': 44002, 'errmsg': 'empty post data'}}" ]
+        }, {
+          "name" : "test_batch_unblackList[args3]",
+          "uid" : "8c89047233b2b86b",
+          "parentUid" : "1a76a20b05a4d58ed6599caa862a1f06",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834316749,
+            "stop" : 1715834317118,
+            "duration" : 369
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【取消拉黑用户至黑名单接口】用例4：openid参数为空', 'method': 'post', 'url': '/cgi-bin/tags/members/batchblacklist', 'data': {'openid_list': ''}, 'excepted': {'statusCode': 200, 'errcode': 40003, 'errmsg': 'invalid openid'}}" ]
+        } ],
+        "uid" : "1a76a20b05a4d58ed6599caa862a1f06"
+      }, {
+        "name" : "获取微信黑名单",
+        "children" : [ {
+          "name" : "test_getUserList[args0]",
+          "uid" : "6eda5ee823c14e88",
+          "parentUid" : "a52217e8a640ea0ce0bd63217d28de22",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834317127,
+            "stop" : 1715834317629,
+            "duration" : 502
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【获取微信黑名单列表】用例1：参数全部正常', 'method': 'post', 'url': '/cgi-bin/tags/members/getblacklist', 'data': {'begin_openid': ''}, 'excepted': {'statusCode': 200, 'text1': 'total', 'text2': 'count'}}" ]
+        }, {
+          "name" : "test_getUserList[args1]",
+          "uid" : "16445f0a342d35ba",
+          "parentUid" : "a52217e8a640ea0ce0bd63217d28de22",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834317637,
+            "stop" : 1715834318038,
+            "duration" : 401
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【获取微信黑名单列表】用例2：参数begin_openid为null', 'method': 'post', 'url': '/cgi-bin/tags/members/getblacklist', 'data': {'begin_openid': None}, 'excepted': {'statusCode': 200, 'text1': 'total', 'text2': 'count'}}" ]
+        }, {
+          "name" : "test_getUserList[args2]",
+          "uid" : "be2202ac54d1ec33",
+          "parentUid" : "a52217e8a640ea0ce0bd63217d28de22",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834318046,
+            "stop" : 1715834318449,
+            "duration" : 403
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【获取微信黑名单列表】用例3：参数begin_openid无效', 'method': 'post', 'url': '/cgi-bin/tags/members/getblacklist', 'data': {'begin_openid': '1231'}, 'excepted': {'statusCode': 200, 'errcode': 40003, 'errmsg': 'invalid openid'}}" ]
+        }, {
+          "name" : "test_getUserList[args3]",
+          "uid" : "55632a6179f9ab6a",
+          "parentUid" : "a52217e8a640ea0ce0bd63217d28de22",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834318456,
+            "stop" : 1715834318775,
+            "duration" : 319
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【获取微信黑名单列表】用例4：请求body缺失', 'method': 'post', 'url': '/cgi-bin/tags/members/getblacklist', 'data': None, 'excepted': {'statusCode': 200, 'errcode': 44002, 'errmsg': 'empty post data'}}" ]
+        } ],
+        "uid" : "a52217e8a640ea0ce0bd63217d28de22"
+      } ],
+      "uid" : "69c052074d05ed85bcabf67943aa4617"
+    }, {
+      "name" : "上传卡券",
+      "children" : [ {
+        "name" : "上传卡券图片接口",
+        "children" : [ {
+          "name" : "test_upload_img[args0]",
+          "uid" : "37a34576c8fea336",
+          "parentUid" : "f94bbf2f287cdc6226606e23b0d9be2c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834318828,
+            "stop" : 1715834319269,
+            "duration" : 441
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【上传卡券图片接口】用例1：files参数为空', 'method': 'post', 'url': '/cgi-bin/media/uploadimg', 'files': {'buffer': ''}, 'excepted': {'errcode': 41005, 'errmsg': 'media data missing', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_upload_img[args1]",
+          "uid" : "bd98cafcb00133ec",
+          "parentUid" : "f94bbf2f287cdc6226606e23b0d9be2c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834319278,
+            "stop" : 1715834319820,
+            "duration" : 542
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【上传卡券图片接口】用例2：files格式为txt', 'method': 'post', 'url': '/cgi-bin/media/uploadimg', 'files': {'buffer': '测试.txt'}, 'excepted': {'errcode': 40005, 'errmsg': 'invalid file type', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_upload_img[args2]",
+          "uid" : "1f803309ba5c9ac4",
+          "parentUid" : "f94bbf2f287cdc6226606e23b0d9be2c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834319833,
+            "stop" : 1715834320191,
+            "duration" : 358
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【上传卡券图片接口】用例3：files格式为png', 'method': 'post', 'url': '/cgi-bin/media/uploadimg', 'files': {'buffer': '卡券.png'}, 'excepted': {'text1': 'url', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_upload_img[args3]",
+          "uid" : "8522530ed959be9e",
+          "parentUid" : "f94bbf2f287cdc6226606e23b0d9be2c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834320199,
+            "stop" : 1715834320602,
+            "duration" : 403
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【上传卡券图片接口】用例4：files格式为jpg', 'method': 'post', 'url': '/cgi-bin/media/uploadimg', 'files': {'buffer': '微信门店图片.jpg'}, 'excepted': {'text1': 'url', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_upload_img[args4]",
+          "uid" : "da8abc72c6fc7114",
+          "parentUid" : "f94bbf2f287cdc6226606e23b0d9be2c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834320610,
+            "stop" : 1715834320939,
+            "duration" : 329
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【上传卡券图片接口】用例5：files格式为mp3', 'method': 'post', 'url': '/cgi-bin/media/uploadimg', 'files': {'buffer': '1.mp4'}, 'excepted': {'errcode': 40005, 'errmsg': 'invalid file type', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_upload_img[args5]",
+          "uid" : "7333b653a556cedd",
+          "parentUid" : "f94bbf2f287cdc6226606e23b0d9be2c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834320971,
+            "stop" : 1715834325006,
+            "duration" : 4035
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【上传卡券图片接口】用例6：文件大小超过1MB', 'method': 'post', 'url': '/cgi-bin/media/uploadimg', 'files': {'buffer': '大于1MB.jpg'}, 'excepted': {'errcode': 40009, 'errmsg': 'invalid image size', 'statusCode': 200}}" ]
+        } ],
+        "uid" : "f94bbf2f287cdc6226606e23b0d9be2c"
+      } ],
+      "uid" : "60a062f3364a393b763fb4ee65900762"
+    }, {
+      "name" : "客服管理模块",
+      "children" : [ {
+        "name" : "创建客服账号接口",
+        "children" : [ {
+          "name" : "test_create_kf[args0]",
+          "uid" : "8925231433e6369c",
+          "parentUid" : "b3e58054006b55b9d56bf75800c1e5aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834325015,
+            "stop" : 1715834325414,
+            "duration" : 399
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【创建客服账号接口】用例1：参数全部正确', 'method': 'post', 'url': '/customservice/kfaccount/add', 'data': {'kf_account': 'cqU49jXdX_@xpya1m6VpjX4qZQ47dZ9umYr5Hiivu', 'nickname': 'OmPa836DhAmm89ON'}, 'excepted': {'errcode': 0, 'errmsg': 'ok', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_create_kf[args1]",
+          "uid" : "ffb3ccda0037cd75",
+          "parentUid" : "b3e58054006b55b9d56bf75800c1e5aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834325422,
+            "stop" : 1715834325745,
+            "duration" : 323
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【创建客服账号接口】用例2：参数客服账号已存在', 'method': 'post', 'url': '/customservice/kfaccount/add', 'data': {'kf_account': 'test1@test', 'nickname': 'SquqlfGJdDUy28Br'}, 'excepted': {'errcode': 65406, 'errmsg': 'custom service account exists', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_create_kf[args2]",
+          "uid" : "9a9855411004a773",
+          "parentUid" : "b3e58054006b55b9d56bf75800c1e5aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834325803,
+            "stop" : 1715834326131,
+            "duration" : 328
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【创建客服账号接口】用例3：参数客服账号为空', 'method': 'post', 'url': '/customservice/kfaccount/add', 'data': {'kf_account': '', 'nickname': 'al43ZTwD7FlW35xT'}, 'excepted': {'errcode': 65404, 'errmsg': 'illegal custom service account', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_create_kf[args3]",
+          "uid" : "3e9f1d0abc2a371f",
+          "parentUid" : "b3e58054006b55b9d56bf75800c1e5aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834326138,
+            "stop" : 1715834326523,
+            "duration" : 385
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【创建客服账号接口】用例4：参数nickname客服昵称为空', 'method': 'post', 'url': '/customservice/kfaccount/add', 'data': {'kf_account': 'GmHHwZ6iu_@mi6GmmCfhY4kFjEH1621oHqS8BvC6U', 'nickname': ''}, 'excepted': {'errcode': 0, 'errmsg': 'ok', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_create_kf[args4]",
+          "uid" : "2e422188b33cfd04",
+          "parentUid" : "b3e58054006b55b9d56bf75800c1e5aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834326531,
+            "stop" : 1715834326853,
+            "duration" : 322
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【创建客服账号接口】用例5：参数nickname客服昵称超过16个字符', 'method': 'post', 'url': '/customservice/kfaccount/add', 'data': {'kf_account': 'YFS2CkJ5v_@JAbmwexOlhrT7qUKjNunI6qAffvsSW', 'nickname': '111fwert1234rfgt3'}, 'excepted': {'errcode': 65403, 'errmsg': 'illegal nickname', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_create_kf[args5]",
+          "uid" : "645f4cd9f9f7b6e2",
+          "parentUid" : "b3e58054006b55b9d56bf75800c1e5aa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834326861,
+            "stop" : 1715834327254,
+            "duration" : 393
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【创建客服账号接口】用例6：参数客服账号/前缀超过10个字符', 'method': 'post', 'url': '/customservice/kfaccount/add', 'data': {'kf_account': 'test_123456@test', 'nickname': 'BTEN2UnD1maSeLMG'}, 'excepted': {'errcode': 65404, 'errmsg': 'illegal custom service account', 'statusCode': 200}}" ]
+        } ],
+        "uid" : "b3e58054006b55b9d56bf75800c1e5aa"
+      }, {
+        "name" : "设置客服信息接口",
+        "children" : [ {
+          "name" : "test_uptate_kf[args0]",
+          "uid" : "8835313c3353f933",
+          "parentUid" : "29b729db0ff14c38180eb9527f4dd74f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834327266,
+            "stop" : 1715834327698,
+            "duration" : 432
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【设置客服信息接口】用例1：参数全部正确', 'method': 'post', 'url': '/customservice/kfaccount/update', 'nickname': 'PP2hunGw1cwGtw4x', 'excepted': {'errcode': 0, 'errmsg': 'ok', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_uptate_kf[args1]",
+          "uid" : "3b0ae918f1846cb8",
+          "parentUid" : "29b729db0ff14c38180eb9527f4dd74f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834327706,
+            "stop" : 1715834328074,
+            "duration" : 368
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【设置客服信息接口】用例2：客服账号kf_account参数为空', 'method': 'post', 'url': '/customservice/kfaccount/update', 'data': {'kf_account': '', 'nickname': 'yrEb6drY2MJ3IiRU'}, 'excepted': {'errcode': 65401, 'errmsg': 'invalid custom service account', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_uptate_kf[args2]",
+          "uid" : "21a3f396258363ee",
+          "parentUid" : "29b729db0ff14c38180eb9527f4dd74f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834328078,
+            "stop" : 1715834328388,
+            "duration" : 310
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【设置客服信息接口】用例3：请求body数据为空', 'method': 'post', 'url': '/customservice/kfaccount/update', 'data': None, 'excepted': {'errcode': 44002, 'errmsg': 'empty post data', 'statusCode': 200}}" ]
+        } ],
+        "uid" : "29b729db0ff14c38180eb9527f4dd74f"
+      }, {
+        "name" : "删除客服账号接口",
+        "children" : [ {
+          "name" : "test_del_kf[args0]",
+          "uid" : "bd8c70c49a18cd17",
+          "parentUid" : "3313b3b0d51be3d443b8b4a2f8b36972",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834328395,
+            "stop" : 1715834328793,
+            "duration" : 398
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【删除客服账号接口】用例1：参数全部正确', 'method': 'get', 'url': '/customservice/kfaccount/del', 'excepted': {'errcode': 0, 'errmsg': 'ok', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_del_kf[args1]",
+          "uid" : "3bb48bb45925c890",
+          "parentUid" : "3313b3b0d51be3d443b8b4a2f8b36972",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834328844,
+            "stop" : 1715834329202,
+            "duration" : 358
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【删除客服账号接口】用例2：删除的客服账号为无效的自定义服务帐户', 'method': 'get', 'url': '/customservice/kfaccount/del', 'params': {'kf_account': '213432@212'}, 'excepted': {'errcode': 65401, 'errmsg': 'invalid custom service account', 'statusCode': 200}}" ]
+        } ],
+        "uid" : "3313b3b0d51be3d443b8b4a2f8b36972"
+      }, {
+        "name" : "获取客服基础信息接口",
+        "children" : [ {
+          "name" : "test_select_kf_list[args0]",
+          "uid" : "6d90b38435c84320",
+          "parentUid" : "67147fa0e4d6ea96b59365381b9aac3b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834329210,
+            "stop" : 1715834329900,
+            "duration" : 690
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【获取客服基础信息接口】用例1：参数全部正确', 'method': 'get', 'url': '/cgi-bin/customservice/getkflist', 'excepted': {'text1': 'kf_list', 'text2': 'kf_account', 'text3': 'kf_id', 'text4': 'kf_nick', 'statusCode': 200}}" ]
+        } ],
+        "uid" : "67147fa0e4d6ea96b59365381b9aac3b"
+      }, {
+        "name" : "上传客服头像接口",
+        "children" : [ {
+          "name" : "test_upload_kf_headImg[args0]",
+          "uid" : "13ba7b8055642044",
+          "parentUid" : "aac789469e9664c89b836005f3b59a40",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834329908,
+            "stop" : 1715834330426,
+            "duration" : 518
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【上传客服头像接口】用例1：参数全部正确(jpeg格式)', 'method': 'post', 'url': '/customservice/kfaccount/uploadheadimg', 'params': {'kf_account': 'test1@test'}, 'files': {'media': 'tx1.jpeg'}, 'excepted': {'errcode': 0, 'errmsg': 'ok', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_upload_kf_headImg[args1]",
+          "uid" : "3c85acfe9745c7a3",
+          "parentUid" : "aac789469e9664c89b836005f3b59a40",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834330434,
+            "stop" : 1715834332913,
+            "duration" : 2479
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【上传客服头像接口】用例2：头像size超过限制大小', 'method': 'post', 'url': '/customservice/kfaccount/uploadheadimg', 'params': {'kf_account': 'test1@test'}, 'files': {'media': 'size_over.jpg'}, 'excepted': {'errcode': 45002, 'errmsg': 'content size out of limit', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_upload_kf_headImg[args2]",
+          "uid" : "d909f2008f50ff9c",
+          "parentUid" : "aac789469e9664c89b836005f3b59a40",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834332921,
+            "stop" : 1715834333368,
+            "duration" : 447
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【上传客服头像接口】用例3：参数全部正确(png格式)', 'method': 'post', 'url': '/customservice/kfaccount/uploadheadimg', 'params': {'kf_account': 'test1@test'}, 'files': {'media': 'tx2.png'}, 'excepted': {'errcode': 0, 'errmsg': 'ok', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_upload_kf_headImg[args3]",
+          "uid" : "d8e7a3fc57bb6b06",
+          "parentUid" : "aac789469e9664c89b836005f3b59a40",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834333376,
+            "stop" : 1715834333710,
+            "duration" : 334
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【上传客服头像接口】用例4：头像上传为空', 'method': 'post', 'url': '/customservice/kfaccount/uploadheadimg', 'params': {'kf_account': 'test1@test'}, 'files': {'media': ''}, 'excepted': {'errcode': 41005, 'errmsg': 'media data missing', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_upload_kf_headImg[args4]",
+          "uid" : "aea9f77d45ee69df",
+          "parentUid" : "aac789469e9664c89b836005f3b59a40",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834333719,
+            "stop" : 1715834334119,
+            "duration" : 400
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【上传客服头像接口】用例5：头像上传格式错误（不支持的媒体类型）', 'method': 'post', 'url': '/customservice/kfaccount/uploadheadimg', 'params': {'kf_account': 'test1@test'}, 'files': {'media': '测试.bmp'}, 'excepted': {'errcode': 40005, 'errmsg': 'invalid file type', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_upload_kf_headImg[args5]",
+          "uid" : "3eca3e202921bc10",
+          "parentUid" : "aac789469e9664c89b836005f3b59a40",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834334127,
+            "stop" : 1715834334886,
+            "duration" : 759
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【上传客服头像接口】用例6：无效的客服账号', 'method': 'post', 'url': '/customservice/kfaccount/uploadheadimg', 'params': {'kf_account': '无效的客服账号'}, 'files': {'media': 'tx3.png'}, 'excepted': {'errcode': 65401, 'errmsg': 'invalid custom service account', 'statusCode': 200}}" ]
+        } ],
+        "uid" : "aac789469e9664c89b836005f3b59a40"
+      } ],
+      "uid" : "1ce2c557e7e4859c84cf72bff67588f5"
+    }, {
+      "name" : "登录模块",
+      "children" : [ {
+        "name" : "获取token鉴权接口",
+        "children" : [ {
+          "name" : "test_geToken[args0]",
+          "uid" : "f131db37eb87aeca",
+          "parentUid" : "8df6c14a588f1d5bbd0c42f5db485d1e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834334898,
+            "stop" : 1715834335242,
+            "duration" : 344
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【获取鉴权接口】用例1：grant_type参数为空/缺失', 'method': 'get', 'url': '/cgi-bin/token', 'params': {'grant_type': None, 'appid': 'wx8419d850fbd9f70e', 'secret': '3a6dcf6ba33cd5b954574036111f1373'}, 'excepted': {'errcode': 40002, 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_geToken[args1]",
+          "uid" : "4718e3cf900c3571",
+          "parentUid" : "8df6c14a588f1d5bbd0c42f5db485d1e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834335250,
+            "stop" : 1715834335511,
+            "duration" : 261
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【获取鉴权接口】用例2：grant_type参数错误', 'method': 'get', 'url': '/cgi-bin/token', 'params': {'grant_type': '错误错误错误数据', 'appid': 'wx8419d850fbd9f70e', 'secret': '3a6dcf6ba33cd5b954574036111f1373'}, 'excepted': {'errcode': 40002, 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_geToken[args2]",
+          "uid" : "ee7a15e7096bde82",
+          "parentUid" : "8df6c14a588f1d5bbd0c42f5db485d1e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834335570,
+            "stop" : 1715834335745,
+            "duration" : 175
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【获取鉴权接口】用例3：appid参数为空/缺失', 'method': 'get', 'url': '/cgi-bin/token', 'params': {'grant_type': 'client_credential', 'appid': None, 'secret': '3a6dcf6ba33cd5b954574036111f1373'}, 'excepted': {'errcode': 41002, 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_geToken[args3]",
+          "uid" : "a9f20a935a2cb0a2",
+          "parentUid" : "8df6c14a588f1d5bbd0c42f5db485d1e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834335757,
+            "stop" : 1715834335887,
+            "duration" : 130
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【获取鉴权接口】用例4：appid参数错误', 'method': 'get', 'url': '/cgi-bin/token', 'params': {'grant_type': 'client_credential', 'appid': '错误数据', 'secret': '3a6dcf6ba33cd5b954574036111f1373'}, 'excepted': {'errcode': 40013, 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_geToken[args4]",
+          "uid" : "fee6e058d9717f05",
+          "parentUid" : "8df6c14a588f1d5bbd0c42f5db485d1e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834335895,
+            "stop" : 1715834336268,
+            "duration" : 373
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【获取鉴权接口】用例5：secret参数为空/缺失', 'method': 'get', 'url': '/cgi-bin/token', 'params': {'grant_type': 'client_credential', 'appid': 'wx8419d850fbd9f70e', 'secret': None}, 'excepted': {'errcode': 41004, 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_geToken[args5]",
+          "uid" : "c42379283d464df",
+          "parentUid" : "8df6c14a588f1d5bbd0c42f5db485d1e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834336275,
+            "stop" : 1715834336518,
+            "duration" : 243
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【获取鉴权接口】用例6：secret参数错误', 'method': 'get', 'url': '/cgi-bin/token', 'params': {'grant_type': 'client_credential', 'appid': 'wx8419d850fbd9f70e', 'secret': '错误数据'}, 'excepted': {'errcode': 40125, 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_geToken[args6]",
+          "uid" : "e5eae781f0ad4357",
+          "parentUid" : "8df6c14a588f1d5bbd0c42f5db485d1e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834336529,
+            "stop" : 1715834336986,
+            "duration" : 457
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【获取鉴权接口】用例7：所有参数正确', 'method': 'get', 'url': '/cgi-bin/token', 'params': {'grant_type': 'client_credential', 'appid': 'wx8419d850fbd9f70e', 'secret': '3a6dcf6ba33cd5b954574036111f1373'}, 'excepted': {'expires_in': 7200, 'statusCode': 200}}" ]
+        } ],
+        "uid" : "8df6c14a588f1d5bbd0c42f5db485d1e"
+      } ],
+      "uid" : "7817e0ab356437566f4d78a79b4f44e6"
+    }, {
+      "name" : "账号管理",
+      "children" : [ {
+        "name" : "创建永久二维码ticket接口",
+        "children" : [ {
+          "name" : "test_create_ticket[args0]",
+          "uid" : "490356e15bfffdec",
+          "parentUid" : "88059d4eb75d0460a890796b43f80bd7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834336996,
+            "stop" : 1715834337499,
+            "duration" : 503
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【创建永久二维码ticket接口】用例1：参数全部正确', 'method': 'post', 'url': '/cgi-bin/qrcode/create', 'data': {'action_name': 'QR_LIMIT_SCENE', 'action_info': {'scene': {'scene_id': '8830'}}}, 'excepted': {'text1': 'ticket', 'text2': 'url', 'statusCode': 200}}" ]
+        } ],
+        "uid" : "88059d4eb75d0460a890796b43f80bd7"
+      }, {
+        "name" : "通过ticket换取二维码接口",
+        "children" : [ {
+          "name" : "test_by_ticket_get_qrcode[args0]",
+          "uid" : "48577f3b322b82e9",
+          "parentUid" : "522b83b22f97a07c6e0082d7a8174763",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834337507,
+            "stop" : 1715834337720,
+            "duration" : 213
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【通过ticket换取二维码接口】用例1：参数全部正确', 'method': 'get', 'url': 'https://mp.weixin.qq.com/cgi-bin/showqrcode', 'params': {'ticket': 'gQF68TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAySWdONXdLZUVmb0QxMDAwME0wM1oAAgTEjUVmAwQAAAAA'}, 'excepted': {'statusCode': 200, 'http_response_header': 'image/jpg'}}" ]
+        } ],
+        "uid" : "522b83b22f97a07c6e0082d7a8174763"
+      } ],
+      "uid" : "fa66135986b2bb94fdd0c7a750563123"
+    }, {
+      "name" : "用户管理模块",
+      "children" : [ {
+        "name" : "批量获取用户基础信息接口",
+        "children" : [ {
+          "name" : "test_bacth_getUserBaseInfo[args0]",
+          "uid" : "1a9a33b1bd66e33d",
+          "parentUid" : "5604dc3cbcdb2f4fb05094be81417bbd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834337771,
+            "stop" : 1715834338368,
+            "duration" : 597
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '用例1：参数全部正确(多个用户)', 'method': 'post', 'url': '/cgi-bin/user/info/batchget', 'data': {'user_list': [{'openid': 'oDqjY50sO3UCivurTfvnATmCMuN0', 'lang': 'zh_CN'}, {'openid': 'oDqjY5-wrnuyN9OBXaN0md8rLsyQ', 'lang': 'zh_CN'}]}, 'excepted': {'statusCode': 200, 'text1': 'nickname', 'text2': 'openid'}}" ]
+        }, {
+          "name" : "test_bacth_getUserBaseInfo[args1]",
+          "uid" : "2d9920d8a07079a5",
+          "parentUid" : "5604dc3cbcdb2f4fb05094be81417bbd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834338376,
+            "stop" : 1715834338825,
+            "duration" : 449
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '用例2：参数全部正确(单个用户)', 'method': 'post', 'url': '/cgi-bin/user/info/batchget', 'data': {'user_list': [{'openid': 'oDqjY5-wrnuyN9OBXaN0md8rLsyQ', 'lang': 'zh_CN'}]}, 'excepted': {'statusCode': 200, 'text1': 'user_info_list', 'text2': 'subscribe'}}" ]
+        }, {
+          "name" : "test_bacth_getUserBaseInfo[args2]",
+          "uid" : "1409dfec27542bf5",
+          "parentUid" : "5604dc3cbcdb2f4fb05094be81417bbd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834338833,
+            "stop" : 1715834339235,
+            "duration" : 402
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '用例3：存在单个无效的openid', 'method': 'post', 'url': '/cgi-bin/user/info/batchget', 'data': {'user_list': [{'openid': '', 'lang': 'zh_CN'}, {'openid': 'oDqjY5-wrnuyN9OBXaN0md8rLsyQ', 'lang': 'zh_CN'}]}, 'excepted': {'statusCode': 200, 'errcode': 40003, 'errmsg': 'invalid openid'}}" ]
+        }, {
+          "name" : "test_bacth_getUserBaseInfo[args3]",
+          "uid" : "3da37d3b93084fbe",
+          "parentUid" : "5604dc3cbcdb2f4fb05094be81417bbd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834339243,
+            "stop" : 1715834339646,
+            "duration" : 403
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '用例4：存在多个无效的openid', 'method': 'post', 'url': '/cgi-bin/user/info/batchget', 'data': {'user_list': [{'openid': '', 'lang': 'zh_CN'}, {'openid': '', 'lang': 'zh_CN'}]}, 'excepted': {'statusCode': 200, 'errcode': 40003, 'errmsg': 'invalid openid'}}" ]
+        }, {
+          "name" : "test_bacth_getUserBaseInfo[args4]",
+          "uid" : "74aa108ac348e868",
+          "parentUid" : "5604dc3cbcdb2f4fb05094be81417bbd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834339654,
+            "stop" : 1715834339946,
+            "duration" : 292
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '用例5：empty post data', 'method': 'post', 'url': '/cgi-bin/user/info/batchget', 'data': None, 'excepted': {'statusCode': 200, 'errcode': 44002, 'errmsg': 'empty post data'}}" ]
+        } ],
+        "uid" : "5604dc3cbcdb2f4fb05094be81417bbd"
+      }, {
+        "name" : "获取用户基本信息接口",
+        "children" : [ {
+          "name" : "test_getUserBaseInfo[args0]",
+          "uid" : "8a50079e8d79fb6c",
+          "parentUid" : "9aefdd864e45d967e74bc29c8cdfaff5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834339954,
+            "stop" : 1715834340570,
+            "duration" : 616
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '用例1：参数openid存在', 'method': 'post', 'url': '/cgi-bin/user/info', 'params': {'openid': 'oDqjY5xYp972631jH7IsDR3pl2x0', 'lang': 'zh_CN'}, 'excepted': {'statusCode': 200, 'language': 'zh_CN'}}" ]
+        }, {
+          "name" : "test_getUserBaseInfo[args1]",
+          "uid" : "dd2ebfd3714edfb8",
+          "parentUid" : "9aefdd864e45d967e74bc29c8cdfaff5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834340578,
+            "stop" : 1715834340866,
+            "duration" : 288
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '用例2：openid参数无效', 'method': 'post', 'url': '/cgi-bin/user/info', 'params': {'openid': 'TewFrGOIGreHIrOH12314', 'lang': 'zh_CN'}, 'excepted': {'statusCode': 200, 'errcode': 40003, 'errmsg': 'invalid openid'}}" ]
+        }, {
+          "name" : "test_getUserBaseInfo[args2]",
+          "uid" : "41a0c22e4c48f020",
+          "parentUid" : "9aefdd864e45d967e74bc29c8cdfaff5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834340874,
+            "stop" : 1715834341153,
+            "duration" : 279
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '用例3：openid为null', 'method': 'post', 'url': '/cgi-bin/user/info', 'params': {'openid': None, 'lang': 'zh_CN'}, 'excepted': {'statusCode': 200, 'errcode': 40003, 'errmsg': 'invalid openid'}}" ]
+        }, {
+          "name" : "test_getUserBaseInfo[args3]",
+          "uid" : "30090afd7b7ac127",
+          "parentUid" : "9aefdd864e45d967e74bc29c8cdfaff5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834341165,
+            "stop" : 1715834341435,
+            "duration" : 270
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '用例4：openid为空', 'method': 'post', 'url': '/cgi-bin/user/info', 'params': {'openid': None, 'lang': 'zh_CN'}, 'excepted': {'statusCode': 200, 'errcode': 40003, 'errmsg': 'invalid openid'}}" ]
+        } ],
+        "uid" : "9aefdd864e45d967e74bc29c8cdfaff5"
+      }, {
+        "name" : "获取用户列表接口",
+        "children" : [ {
+          "name" : "test_getUserList[args0]",
+          "uid" : "2624e01ba4dbc3b5",
+          "parentUid" : "77182878f0ef954654bc663cf42ae72d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834341443,
+            "stop" : 1715834341795,
+            "duration" : 352
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【获取用户列表接口】用例1：所有参数正常', 'method': 'get', 'url': '/cgi-bin/user/get', 'params': {'next_openid': None}, 'excepted': {'text1': 'total', 'text2': 'count', 'text3': 'next_openid', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_getUserList[args1]",
+          "uid" : "523e3a4bf5265eb1",
+          "parentUid" : "77182878f0ef954654bc663cf42ae72d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834341803,
+            "stop" : 1715834342113,
+            "duration" : 310
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【获取用户列表接口】用例2：next_openid无效为数字，参数无效', 'method': 'get', 'url': '/cgi-bin/user/get', 'params': {'next_openid': 1}, 'excepted': {'errcode': 40003, 'errmsg': 'invalid openid hint', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_getUserList[args2]",
+          "uid" : "8495bf1057d3ceb2",
+          "parentUid" : "77182878f0ef954654bc663cf42ae72d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834342133,
+            "stop" : 1715834342463,
+            "duration" : 330
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【获取用户列表接口】用例3：next_openid为大小写字母，参数无效', 'method': 'get', 'url': '/cgi-bin/user/get', 'params': {'next_openid': 'Affdex'}, 'excepted': {'errcode': 40003, 'errmsg': 'invalid openid hint', 'statusCode': 200}}" ]
+        } ],
+        "uid" : "77182878f0ef954654bc663cf42ae72d"
+      }, {
+        "name" : "设置用户备注名接口",
+        "children" : [ {
+          "name" : "test_update_user_remark[args0]",
+          "uid" : "a51cde617f72b52",
+          "parentUid" : "6d1c924c889f06bcb7a9ff482c1ff97d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834342471,
+            "stop" : 1715834342823,
+            "duration" : 352
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【设置用户备注名接口】用例1：所有参数正常', 'method': 'post', 'url': '/cgi-bin/user/info/updateremark', 'data': {'openid': 'oDqjY5xYp972631jH7IsDR3pl2x0', 'remark': 'Of8fW6rK4DBzRROrQhqGLCK1WfKv0s'}, 'excepted': {'errcode': 0, 'errmsg': 'ok', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_update_user_remark[args1]",
+          "uid" : "ec1b6e2374ed788e",
+          "parentUid" : "6d1c924c889f06bcb7a9ff482c1ff97d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834342831,
+            "stop" : 1715834343118,
+            "duration" : 287
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【设置用户备注名接口】用例2：openid参数为空', 'method': 'post', 'url': '/cgi-bin/user/info/updateremark', 'data': {'openid': '', 'remark': 'RjPzs7cLHA2T5ZdyCNEF81KH1HVYDF'}, 'excepted': {'errcode': 40003, 'errmsg': 'invalid openid hint', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_update_user_remark[args2]",
+          "uid" : "d6a0331361037859",
+          "parentUid" : "6d1c924c889f06bcb7a9ff482c1ff97d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834343129,
+            "stop" : 1715834343538,
+            "duration" : 409
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【设置用户备注名接口】用例3：openid参数不符合规则', 'method': 'post', 'url': '/cgi-bin/user/info/updateremark', 'data': {'openid': '2144325', 'remark': 'RzzPujc0hE4Gt5iMro3FeOUvLknyjb'}, 'excepted': {'errcode': 40003, 'errmsg': 'invalid openid hint', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_update_user_remark[args3]",
+          "uid" : "b6661ab37e2e2804",
+          "parentUid" : "6d1c924c889f06bcb7a9ff482c1ff97d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834343547,
+            "stop" : 1715834343947,
+            "duration" : 400
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【设置用户备注名接口】用例4：remark参数为空', 'method': 'post', 'url': '/cgi-bin/user/info/updateremark', 'data': {'openid': 'oDqjY5-wrnuyN9OBXaN0md8rLsyQ', 'remark': ''}, 'excepted': {'errcode': 0, 'errmsg': 'ok', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_update_user_remark[args4]",
+          "uid" : "d5daeffd6b36dcf2",
+          "parentUid" : "6d1c924c889f06bcb7a9ff482c1ff97d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834343956,
+            "stop" : 1715834344358,
+            "duration" : 402
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【设置用户备注名接口】用例5：openid不存在/没注册', 'method': 'post', 'url': '/cgi-bin/user/info/updateremark', 'data': {'openid': 'oDqjY5_GLrHIJQtaZWhJspPwUpbU', 'remark': 'uib5G4tgfKYYKUaMqWvgQYrECIkQuz'}, 'excepted': {'errcode': 43004, 'errmsg': 'require subscribe', 'statusCode': 200}}" ]
+        } ],
+        "uid" : "6d1c924c889f06bcb7a9ff482c1ff97d"
+      } ],
+      "uid" : "ca111b5e8476f71e3b999a5f26b1abbe"
+    }, {
+      "name" : "用户标签管理模块",
+      "children" : [ {
+        "name" : "创建用户标签接口",
+        "children" : [ {
+          "name" : "test_CreateTag[args0]",
+          "uid" : "fe3cf06bb4f8f471",
+          "parentUid" : "f7eee2394a7d86f7ac0796533b9b11cd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834344422,
+            "stop" : 1715834345282,
+            "duration" : 860
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【创建用户标签接口】用例1：参数全部正确', 'method': 'post', 'url': '/cgi-bin/tags/create', 'data': {'tag': {'name': 'NS82O8reegTr6HWr4ULPgUr21AE7Cl'}}, 'excepted': {'statusCode': 200}}" ]
+        }, {
+          "name" : "test_CreateTag[args1]",
+          "uid" : "1fd109443c6cde5e",
+          "parentUid" : "f7eee2394a7d86f7ac0796533b9b11cd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834345291,
+            "stop" : 1715834345594,
+            "duration" : 303
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【创建用户标签接口】用例2：参数name为\"\"', 'method': 'post', 'url': '/cgi-bin/tags/create', 'data': {'tag': {'name': ''}}, 'excepted': {'errcode': 45157, 'errmsg': 'invalid tag name', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_CreateTag[args2]",
+          "uid" : "505581a3b1e5e848",
+          "parentUid" : "f7eee2394a7d86f7ac0796533b9b11cd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834345600,
+            "stop" : 1715834345994,
+            "duration" : 394
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【创建用户标签接口】用例3：参数name已存在', 'method': 'post', 'url': '/cgi-bin/tags/create', 'data': {'tag': {'name': '星标组'}}, 'excepted': {'errcode': 45157, 'errmsg': 'invalid tag name', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_CreateTag[args3]",
+          "uid" : "ba84c86a85abb66",
+          "parentUid" : "f7eee2394a7d86f7ac0796533b9b11cd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834346000,
+            "stop" : 1715834346264,
+            "duration" : 264
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【创建用户标签接口】用例4：参数name为null', 'method': 'post', 'url': '/cgi-bin/tags/create', 'data': {'tag': {'name': None}}, 'excepted': {'errcode': 45157, 'errmsg': 'invalid tag name', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_CreateTag[args4]",
+          "uid" : "f148f015e41e927a",
+          "parentUid" : "f7eee2394a7d86f7ac0796533b9b11cd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834346270,
+            "stop" : 1715834346611,
+            "duration" : 341
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【创建用户标签接口】用例5：参数name超过30个字节', 'method': 'post', 'url': '/cgi-bin/tags/create', 'data': {'tag': {'name': 'i2ukKEBUjspvaVHmaXsCJYe03LNAdtweLhmbMbRs'}}, 'excepted': {'errcode': 45158, 'errmsg': 'tag name too long', 'statusCode': 200}}" ]
+        }, {
+          "name" : "test_CreateTag[args5]",
+          "uid" : "7148832b5bbfe23b",
+          "parentUid" : "f7eee2394a7d86f7ac0796533b9b11cd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834346618,
+            "stop" : 1715834346892,
+            "duration" : 274
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【创建用户标签接口】用例6：请求body缺失', 'method': 'post', 'url': '/cgi-bin/tags/create', 'data': None, 'excepted': {'errcode': 44002, 'errmsg': 'empty post data', 'statusCode': 200}}" ]
+        } ],
+        "uid" : "f7eee2394a7d86f7ac0796533b9b11cd"
+      }, {
+        "name" : "删除用户标签接口",
+        "children" : [ {
+          "name" : "test_deleteTag[args0]",
+          "uid" : "48b864f9506eb834",
+          "parentUid" : "a4189f405950b2671d477663424f9d67",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834346902,
+            "stop" : 1715834347326,
+            "duration" : 424
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【删除用户标签接口】用例1：全部参数正确', 'method': 'post', 'url': '/cgi-bin/tags/delete', 'data': {'tag': {'id': 757}}, 'errcode': 0, 'errmsg': 'ok', 'statusCode': 200}" ]
+        }, {
+          "name" : "test_deleteTag[args1]",
+          "uid" : "1e201093f220f404",
+          "parentUid" : "a4189f405950b2671d477663424f9d67",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834347335,
+            "stop" : 1715834347633,
+            "duration" : 298
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【删除用户标签接口】用例2：删除用户标签-id参数为空/缺失', 'method': 'post', 'url': '/cgi-bin/tags/delete', 'data': {'tag': {'id': None}}, 'errcode': 45058, 'errmsg': \"can't modify sys tag\", 'statusCode': 200}" ]
+        }, {
+          "name" : "test_deleteTag[args2]",
+          "uid" : "7dcb0c3630c564fb",
+          "parentUid" : "a4189f405950b2671d477663424f9d67",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834347644,
+            "stop" : 1715834347942,
+            "duration" : 298
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【删除用户标签接口】用例3：删除用户标签-参数id为小数', 'method': 'post', 'url': '/cgi-bin/tags/delete', 'data': {'tag': {'id': 'user_manage.2222'}}, 'errcode': 47001, 'errmsg': 'data format error', 'statusCode': 200}" ]
+        }, {
+          "name" : "test_deleteTag[args3]",
+          "uid" : "d0143ec32bb9079",
+          "parentUid" : "a4189f405950b2671d477663424f9d67",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834347953,
+            "stop" : 1715834348350,
+            "duration" : 397
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【删除用户标签接口】用例4：删除用户标签-参数id为中文汉字', 'method': 'post', 'url': '/cgi-bin/tags/delete', 'data': {'tag': {'id': '汉字'}}, 'errcode': 47001, 'errmsg': 'data format error', 'statusCode': 200}" ]
+        }, {
+          "name" : "test_deleteTag[args4]",
+          "uid" : "9c6aa907b5bdc7ab",
+          "parentUid" : "a4189f405950b2671d477663424f9d67",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834348361,
+            "stop" : 1715834348662,
+            "duration" : 301
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【删除用户标签接口】用例5：删除用户标签-参数id含特殊符号', 'method': 'post', 'url': '/cgi-bin/tags/delete', 'data': {'tag': {'id': '@001'}}, 'errcode': 47001, 'errmsg': 'data format error', 'statusCode': 200}" ]
+        }, {
+          "name" : "test_deleteTag[args5]",
+          "uid" : "4d1688082a8a2da2",
+          "parentUid" : "a4189f405950b2671d477663424f9d67",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834348676,
+            "stop" : 1715834349067,
+            "duration" : 391
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【删除用户标签接口】用例6：删除用户标签-参数id为系统id=1', 'method': 'post', 'url': '/cgi-bin/tags/delete', 'data': {'tag': {'id': 1}}, 'errcode': 45058, 'errmsg': \"can't modify sys tag\", 'statusCode': 200}" ]
+        }, {
+          "name" : "test_deleteTag[args6]",
+          "uid" : "9360af707ecea6fc",
+          "parentUid" : "a4189f405950b2671d477663424f9d67",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834349075,
+            "stop" : 1715834349376,
+            "duration" : 301
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【删除用户标签接口】用例7：删除用户标签-参数id为系统id=2', 'method': 'post', 'url': '/cgi-bin/tags/delete', 'data': {'tag': {'id': 2}}, 'errcode': 45058, 'errmsg': \"can't modify sys tag\", 'statusCode': 200}" ]
+        }, {
+          "name" : "test_deleteTag[args7]",
+          "uid" : "96dac0d564ba2a2b",
+          "parentUid" : "a4189f405950b2671d477663424f9d67",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834349385,
+            "stop" : 1715834349682,
+            "duration" : 297
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【删除用户标签接口】用例8：删除用户标签-参数id为系统id=3', 'method': 'post', 'url': '/cgi-bin/tags/delete', 'data': {'tag': {'id': 3}}, 'errcode': 45058, 'errmsg': \"can't modify sys tag\", 'statusCode': 200}" ]
+        } ],
+        "uid" : "a4189f405950b2671d477663424f9d67"
+      }, {
+        "name" : "获取标签下粉丝列表",
+        "children" : [ {
+          "name" : "test_getTagsFans[args0]",
+          "uid" : "4025e8cb879e2687",
+          "parentUid" : "1413e7914ea489aae8ffb7d0ea30191e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834349694,
+            "stop" : 1715834350091,
+            "duration" : 397
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【获取标签下粉丝列表】用例1：参数正确', 'method': 'post', 'url': '/cgi-bin/user/tag/get', 'data': {'tagid': '465', 'next_openid': None}, 'excepted': {'zd1': 'count'}, 'statusCode': 200}" ]
+        }, {
+          "name" : "test_getTagsFans[args1]",
+          "uid" : "5643b7353dc6c273",
+          "parentUid" : "1413e7914ea489aae8ffb7d0ea30191e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834350099,
+            "stop" : 1715834350399,
+            "duration" : 300
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【获取标签下粉丝列表】用例2：next_openid非法', 'method': 'post', 'url': '/cgi-bin/user/tag/get', 'data': {'tagid': '696', 'next_openid': 'ocYxcuAEy30bX0NXmGn4ypqx3tI0'}, 'excepted': {'errcode': 40003, 'errmsg': 'invalid openid'}, 'statusCode': 200}" ]
+        } ],
+        "uid" : "1413e7914ea489aae8ffb7d0ea30191e"
+      }, {
+        "name" : "获取用户标签接口",
+        "children" : [ {
+          "name" : "test_selectTags[args0]",
+          "uid" : "21d853705e71ebac",
+          "parentUid" : "f7eb86cba81a6f73e918f303241da1e1",
+          "status" : "failed",
+          "time" : {
+            "start" : 1715834350411,
+            "stop" : 1715834350729,
+            "duration" : 318
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【查询用户标签接口】用例3：参数正确', 'method': 'get', 'url': '/cgi-bin/tags/get', 'excepted': {'text1': '星标组', 'text2': 'tags'}, 'statusCode': 200}" ]
+        } ],
+        "uid" : "f7eb86cba81a6f73e918f303241da1e1"
+      }, {
+        "name" : "修改用户标签接口",
+        "children" : [ {
+          "name" : "test_UpdateTag[args0]",
+          "uid" : "b6edb8ffb476a02c",
+          "parentUid" : "9faf526d2bf70e52ea613a9d4e968cdc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834350872,
+            "stop" : 1715834351319,
+            "duration" : 447
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【修改用户标签接口】用例1：接口参数都正确', 'method': 'post', 'url': '/cgi-bin/tags/update', 'data': {'tag': {'id': '718', 'name': 'Jz4hTozYA8ts10p'}}, 'errcode': 0, 'errmsg': 'ok', 'statusCode': 200}" ]
+        }, {
+          "name" : "test_UpdateTag[args1]",
+          "uid" : "8281c3529fbb034c",
+          "parentUid" : "9faf526d2bf70e52ea613a9d4e968cdc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834351327,
+            "stop" : 1715834351630,
+            "duration" : 303
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【修改用户标签接口】用例2：id参数缺失/为空', 'method': 'post', 'url': '/cgi-bin/tags/update', 'data': {'tag': {'id': None, 'name': 'oJUYZnJ5NZZDA7m'}}, 'errcode': 45058, 'errmsg': \"can't modify sys tag\", 'statusCode': 200}" ]
+        }, {
+          "name" : "test_UpdateTag[args2]",
+          "uid" : "1a4f39f0048bb825",
+          "parentUid" : "9faf526d2bf70e52ea613a9d4e968cdc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834351642,
+            "stop" : 1715834352140,
+            "duration" : 498
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【修改用户标签接口】用例3：参数id不存在', 'method': 'post', 'url': '/cgi-bin/tags/update', 'data': {'tag': {'id': 888888, 'name': 'hdJV7N6Oq5qBngo'}}, 'errcode': -1, 'errmsg': 'system error', 'statusCode': 200}" ]
+        }, {
+          "name" : "test_UpdateTag[args3]",
+          "uid" : "20de67723557038",
+          "parentUid" : "9faf526d2bf70e52ea613a9d4e968cdc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834352148,
+            "stop" : 1715834352549,
+            "duration" : 401
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【修改用户标签接口】用例4：参数id为系统数据0', 'method': 'post', 'url': '/cgi-bin/tags/update', 'data': {'tag': {'id': 0, 'name': 'LiAir77v3Nd5oDo'}}, 'errcode': 45058, 'errmsg': \"can't modify sys\", 'statusCode': 200}" ]
+        }, {
+          "name" : "test_UpdateTag[args4]",
+          "uid" : "441fa835516a8b0d",
+          "parentUid" : "9faf526d2bf70e52ea613a9d4e968cdc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834352557,
+            "stop" : 1715834352862,
+            "duration" : 305
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【修改用户标签接口】用例5：参数id为系统数据1', 'method': 'post', 'url': '/cgi-bin/tags/update', 'data': {'tag': {'id': 1, 'name': 'bOCNZeOWxXUNna4'}}, 'errcode': 45058, 'errmsg': \"can't modify sys\", 'statusCode': 200}" ]
+        }, {
+          "name" : "test_UpdateTag[args5]",
+          "uid" : "1ab0b7d69228ec2a",
+          "parentUid" : "9faf526d2bf70e52ea613a9d4e968cdc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834352869,
+            "stop" : 1715834353166,
+            "duration" : 297
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【修改用户标签接口】用例6：参数id为系统数据2', 'method': 'post', 'url': '/cgi-bin/tags/update', 'data': {'tag': {'id': 2, 'name': 'x6MMbB72P4avrfQ'}}, 'errcode': 45058, 'errmsg': \"can't modify sys tag\", 'statusCode': 200}" ]
+        }, {
+          "name" : "test_UpdateTag[args6]",
+          "uid" : "9578e2d430182014",
+          "parentUid" : "9faf526d2bf70e52ea613a9d4e968cdc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834353178,
+            "stop" : 1715834353573,
+            "duration" : 395
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【修改用户标签接口】用例7：参数id为系统数据3', 'method': 'post', 'url': '/cgi-bin/tags/update', 'data': {'tag': {'id': 3, 'name': 'T69vB90k6qVLDal'}}, 'errcode': 45058, 'errmsg': \"can't modify sys tag\", 'statusCode': 200}" ]
+        }, {
+          "name" : "test_UpdateTag[args7]",
+          "uid" : "a06214f7486627d1",
+          "parentUid" : "9faf526d2bf70e52ea613a9d4e968cdc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834353581,
+            "stop" : 1715834353883,
+            "duration" : 302
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【修改用户标签接口】用例8：参数id格式错误-为小写英文字母', 'method': 'post', 'url': '/cgi-bin/tags/update', 'data': {'tag': {'id': 'hhhh', 'name': 'Yjz45A6ZBrHDqrd'}}, 'errcode': 47001, 'errmsg': 'data format erro', 'statusCode': 200}" ]
+        }, {
+          "name" : "test_UpdateTag[args8]",
+          "uid" : "5bf4b0ac686703a7",
+          "parentUid" : "9faf526d2bf70e52ea613a9d4e968cdc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834353894,
+            "stop" : 1715834354189,
+            "duration" : 295
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【修改用户标签接口】用例9：参数id格式错误-为大写英文字母', 'method': 'post', 'url': '/cgi-bin/tags/update', 'data': {'tag': {'id': 'AAAAA', 'name': 'K6goa2htq0a8l3J'}}, 'errcode': 47001, 'errmsg': 'data format erro', 'statusCode': 200}" ]
+        }, {
+          "name" : "test_UpdateTag[args9]",
+          "uid" : "d4e125759855e4f7",
+          "parentUid" : "9faf526d2bf70e52ea613a9d4e968cdc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834354200,
+            "stop" : 1715834354510,
+            "duration" : 310
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【修改用户标签接口】用例10：参数id格式错误-为中文汉字', 'method': 'post', 'url': '/cgi-bin/tags/update', 'data': {'tag': {'id': '哈哈哈', 'name': 'LD2CskXlCJDwgQe'}}, 'errcode': 47001, 'errmsg': 'data format erro', 'statusCode': 200}" ]
+        }, {
+          "name" : "test_UpdateTag[args10]",
+          "uid" : "45d1597d315a1c6d",
+          "parentUid" : "9faf526d2bf70e52ea613a9d4e968cdc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1715834354520,
+            "stop" : 1715834354788,
+            "duration" : 268
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【修改用户标签接口】用例11：参数id格式错误-含特殊符号', 'method': 'post', 'url': '/cgi-bin/tags/update', 'data': {'tag': {'id': '!$#@^&', 'name': 'Le7cTJBT6QdxMij'}}, 'errcode': 47001, 'errmsg': 'data format erro', 'statusCode': 200}" ]
+        }, {
+          "name" : "test_UpdateTag[args11]",
+          "uid" : "e3919d8ddf0626fd",
+          "parentUid" : "9faf526d2bf70e52ea613a9d4e968cdc",
+          "status" : "failed",
+          "time" : {
+            "start" : 1715834354799,
+            "stop" : 1715834355098,
+            "duration" : 299
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'caseName': '【修改用户标签接口】用例12：参数name重复存在', 'method': 'post', 'url': '/cgi-bin/tags/update', 'data': {'tag': {'id': '722', 'name': '星标组'}}, 'errcode': 45157, 'errmsg': 'invalid tag name', 'statusCode': 200}" ]
+        } ],
+        "uid" : "9faf526d2bf70e52ea613a9d4e968cdc"
+      } ],
+      "uid" : "3b7301ff6222d59aca7da3db2e38287f"
+    } ],
+    "uid" : "551ffaf1daa22840e5d98061739aaa04"
+  } ]
+}

@@ -1,0 +1,144 @@
+{
+  "uid" : "1a9a33b1bd66e33d",
+  "name" : "test_bacth_getUserBaseInfo[args0]",
+  "fullName" : "testcase.user_manage.test_bacth_getUserBaseInfo.Test_user_manage#test_bacth_getUserBaseInfo",
+  "historyId" : "04c7ffd240680f083eb13202828a1e88",
+  "time" : {
+    "start" : 1715834337771,
+    "stop" : 1715834338368,
+    "duration" : 597
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_fixture",
+    "time" : {
+      "start" : 1715834313483,
+      "stop" : 1715834313488,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "执行接口",
+      "time" : {
+        "start" : 1715834337771,
+        "stop" : 1715834338364,
+        "duration" : 593
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "响应体断言",
+      "time" : {
+        "start" : 1715834338364,
+        "stop" : 1715834338364,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "7d2ee770524354ed",
+      "name" : "log",
+      "source" : "7d2ee770524354ed.txt",
+      "type" : "text/plain",
+      "size" : 2084
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_fixture::0",
+    "time" : {
+      "start" : 1715834355115,
+      "stop" : 1715834355115,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "批量获取用户基础信息接口"
+  }, {
+    "name" : "feature",
+    "value" : "用户管理模块"
+  }, {
+    "name" : "epic",
+    "value" : "微信项目"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.user_manage"
+  }, {
+    "name" : "suite",
+    "value" : "test_bacth_getUserBaseInfo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_user_manage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IG8PJM0"
+  }, {
+    "name" : "thread",
+    "value" : "4692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.user_manage.test_bacth_getUserBaseInfo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'caseName': '用例1：参数全部正确(多个用户)', 'method': 'post', 'url': '/cgi-bin/user/info/batchget', 'data': {'user_list': [{'openid': 'oDqjY50sO3UCivurTfvnATmCMuN0', 'lang': 'zh_CN'}, {'openid': 'oDqjY5-wrnuyN9OBXaN0md8rLsyQ', 'lang': 'zh_CN'}]}, 'excepted': {'statusCode': 200, 'text1': 'nickname', 'text2': 'openid'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a9a33b1bd66e33d.json",
+  "parameterValues" : [ "{'caseName': '用例1：参数全部正确(多个用户)', 'method': 'post', 'url': '/cgi-bin/user/info/batchget', 'data': {'user_list': [{'openid': 'oDqjY50sO3UCivurTfvnATmCMuN0', 'lang': 'zh_CN'}, {'openid': 'oDqjY5-wrnuyN9OBXaN0md8rLsyQ', 'lang': 'zh_CN'}]}, 'excepted': {'statusCode': 200, 'text1': 'nickname', 'text2': 'openid'}}" ]
+}

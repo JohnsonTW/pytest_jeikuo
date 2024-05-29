@@ -1,0 +1,39 @@
+-
+  caseName: 【获取微信黑名单列表】用例1：参数全部正常
+  method: &method post
+  url: &url /cgi-bin/tags/members/getblacklist
+  data:
+    begin_openid: &begin_openid ""
+  excepted:
+    statusCode: &statusCode 200
+    text1: total
+    text2: count
+-
+  caseName: 【获取微信黑名单列表】用例2：参数begin_openid为null
+  method: *method
+  url: *url
+  data:
+    begin_openid: null
+  excepted:
+    statusCode: *statusCode
+    text1: total
+    text2: count
+-
+  caseName: 【获取微信黑名单列表】用例3：参数begin_openid无效
+  method: *method
+  url: *url
+  data:
+    begin_openid: "1231"
+  excepted:
+    statusCode: *statusCode
+    errcode: 40003
+    errmsg: invalid openid
+-
+  caseName: 【获取微信黑名单列表】用例4：请求body缺失
+  method: *method
+  url: *url
+  data:
+  excepted:
+    statusCode: *statusCode
+    errcode: 44002
+    errmsg: empty post data

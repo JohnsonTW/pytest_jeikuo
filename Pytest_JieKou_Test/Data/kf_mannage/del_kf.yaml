@@ -1,0 +1,18 @@
+-
+  caseName: 【删除客服账号接口】用例1：参数全部正确
+  method: &method get
+  url: &url /customservice/kfaccount/del
+  excepted:
+    errcode: 0
+    errmsg: ok
+    statusCode: &statusCode 200
+-
+  caseName: 【删除客服账号接口】用例2：删除的客服账号为无效的自定义服务帐户
+  method: *method
+  url: *url
+  params:
+    kf_account: 213432@212
+  excepted:
+    errcode: 65401
+    errmsg: invalid custom service account
+    statusCode: *statusCode

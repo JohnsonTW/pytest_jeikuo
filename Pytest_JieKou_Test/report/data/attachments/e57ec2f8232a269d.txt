@@ -1,0 +1,5 @@
+2024-05-16 12:38:48 DEBUG Starting new HTTPS connection (1): api.weixin.qq.com:443
+2024-05-16 12:38:49 DEBUG https://api.weixin.qq.com:443 "GET /customservice/kfaccount/del?access_token=80_X82t0TCzj4kqvz_hPUNm_fwwH6n5C02pX2-TiwEO29cTixMpxdwrzI6VtbvtcfIt25uj478i0demenIv-ZIgYwQKZIQZ9vzepHSTWxF5JUIdb2fbL24UKOPp12AELIdAGAVCZ&kf_account=213432%40212 HTTP/1.1" 200 116
+2024-05-16 12:38:49 INFO 【删除客服账号接口】用例2：删除的客服账号为无效的自定义服务帐户- 测试用例,执行成功！实际响应码为：200
+2024-05-16 12:38:49 INFO 【删除客服账号接口】用例2：删除的客服账号为无效的自定义服务帐户- 测试用例,执行成功！实际响应结果为：{'errcode': 65401, 'errmsg': 'invalid custom service account hint: [SFHcxAyWf-aHrUEA] rid: 66458dd9-5f07119e-65ab4485'}
+2024-05-16 12:38:49 INFO 【删除客服账号接口】用例2：删除的客服账号为无效的自定义服务帐户- 测试用例,执行成功！实际响应结果为：{"errcode": 65401, "errmsg": "invalid custom service account hint: [SFHcxAyWf-aHrUEA] rid: 66458dd9-5f07119e-65ab4485"}

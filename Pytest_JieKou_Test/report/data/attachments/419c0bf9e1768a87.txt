@@ -1,0 +1,4 @@
+2024-05-16 12:38:56 DEBUG Starting new HTTPS connection (1): api.weixin.qq.com:443
+2024-05-16 12:38:56 DEBUG https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx8419d850fbd9f70e&secret=3a6dcf6ba33cd5b954574036111f1373 HTTP/1.1" 200 173
+2024-05-16 12:38:56 INFO 【获取鉴权接口】用例7：所有参数正确- 测试用例,执行成功！实际响应码为：200
+2024-05-16 12:38:56 INFO 【获取鉴权接口】用例7：所有参数正确- 测试用例,执行成功！实际响应结果为：{'access_token': '80_dvU532PwP6i0JNfenW99jaHpNzBZQfAnu2Z7xPst8ftDrF5pazCM2cn7KRCOOcKVaWrkZLmtev_0TTMFFZCwKZqp5vgkUy5WTj4v3haVRbtWEWQ1Wtfmd3FkO6ETPOgAFAHDC', 'expires_in': 7200}

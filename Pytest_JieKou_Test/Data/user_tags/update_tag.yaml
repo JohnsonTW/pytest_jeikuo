@@ -1,0 +1,132 @@
+-
+  caseName: 【修改用户标签接口】用例1：接口参数都正确
+  method: &method post
+  url: &url /cgi-bin/tags/update
+  data:
+    tag:
+      id: &id ${select_tags()}
+      name: &name ${generate_random_string(15)}
+  errcode: 0
+  errmsg: ok
+  statusCode: &statusCode 200
+-
+  caseName: 【修改用户标签接口】用例2：id参数缺失/为空
+  method: *method
+  url: *url
+  data:
+    tag:
+      id: null
+      name: *name
+  errcode: 45058
+  errmsg: can't modify sys tag
+  statusCode: *statusCode
+-
+  caseName: 【修改用户标签接口】用例3：参数id不存在
+  method: *method
+  url: *url
+  data:
+    tag:
+      id: 888888
+      name: *name
+  errcode: -1
+  errmsg: system error
+  statusCode: *statusCode
+-
+  caseName: 【修改用户标签接口】用例4：参数id为系统数据0
+  method: *method
+  url: *url
+  data:
+    tag:
+      id: 0
+      name: *name
+  errcode: 45058
+  errmsg: can't modify sys
+  statusCode: *statusCode
+-
+  caseName: 【修改用户标签接口】用例5：参数id为系统数据1
+  method: *method
+  url: *url
+  data:
+    tag:
+      id: 1
+      name: *name
+  errcode: 45058
+  errmsg: can't modify sys
+  statusCode: *statusCode
+-
+  caseName: 【修改用户标签接口】用例6：参数id为系统数据2
+  method: *method
+  url: *url
+  data:
+    tag:
+      id: 2
+      name: *name
+  errcode: 45058
+  errmsg: can't modify sys tag
+  statusCode: *statusCode
+-
+  caseName: 【修改用户标签接口】用例7：参数id为系统数据3
+  method: *method
+  url: *url
+  data:
+    tag:
+      id: 3
+      name: *name
+  errcode: 45058
+  errmsg: can't modify sys tag
+  statusCode: *statusCode
+-
+  caseName: 【修改用户标签接口】用例8：参数id格式错误-为小写英文字母
+  method: *method
+  url: *url
+  data:
+    tag:
+      id: hhhh
+      name: *name
+  errcode: 47001
+  errmsg: data format erro
+  statusCode: *statusCode
+-
+  caseName: 【修改用户标签接口】用例9：参数id格式错误-为大写英文字母
+  method: *method
+  url: *url
+  data:
+    tag:
+      id: AAAAA
+      name: *name
+  errcode: 47001
+  errmsg: data format erro
+  statusCode: *statusCode
+-
+  caseName: 【修改用户标签接口】用例10：参数id格式错误-为中文汉字
+  method: *method
+  url: *url
+  data:
+    tag:
+      id: 哈哈哈
+      name: *name
+  errcode: 47001
+  errmsg: data format erro
+  statusCode: *statusCode
+-
+  caseName: 【修改用户标签接口】用例11：参数id格式错误-含特殊符号
+  method: *method
+  url: *url
+  data:
+    tag:
+      id: "!$#@^&"
+      name: *name
+  errcode: 47001
+  errmsg: data format erro
+  statusCode: *statusCode
+-
+  caseName: 【修改用户标签接口】用例12：参数name重复存在
+  method: *method
+  url: *url
+  data:
+    tag:
+      id: *id
+      name: 星标组
+  errcode: 45157
+  errmsg: invalid tag name
+  statusCode: *statusCode

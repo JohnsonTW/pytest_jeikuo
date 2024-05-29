@@ -1,0 +1,174 @@
+{
+  "uid" : "7148832b5bbfe23b",
+  "name" : "test_CreateTag[args5]",
+  "fullName" : "testcase.user_tags.test_CreateTag.Test_userTag#test_CreateTag",
+  "historyId" : "eee1c5dfc90e03742ab74e5b88681e61",
+  "time" : {
+    "start" : 1715834346618,
+    "stop" : 1715834346892,
+    "duration" : 274
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_fixture",
+    "time" : {
+      "start" : 1715834313483,
+      "stop" : 1715834313488,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "执行接口",
+      "time" : {
+        "start" : 1715834346619,
+        "stop" : 1715834346884,
+        "duration" : 265
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "断言响应体",
+      "time" : {
+        "start" : 1715834346884,
+        "stop" : 1715834346886,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "断言：errcode是否与预期结果一致",
+        "time" : {
+          "start" : 1715834346884,
+          "stop" : 1715834346885,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "断言：errmsg是否与预期结果一致",
+        "time" : {
+          "start" : 1715834346885,
+          "stop" : 1715834346886,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "8b847c2a244ddfeb",
+      "name" : "log",
+      "source" : "8b847c2a244ddfeb.txt",
+      "type" : "text/plain",
+      "size" : 949
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_fixture::0",
+    "time" : {
+      "start" : 1715834355115,
+      "stop" : 1715834355115,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "创建用户标签接口"
+  }, {
+    "name" : "epic",
+    "value" : "微信项目"
+  }, {
+    "name" : "feature",
+    "value" : "用户标签管理模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.user_tags"
+  }, {
+    "name" : "suite",
+    "value" : "test_CreateTag"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_userTag"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IG8PJM0"
+  }, {
+    "name" : "thread",
+    "value" : "4692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.user_tags.test_CreateTag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'caseName': '【创建用户标签接口】用例6：请求body缺失', 'method': 'post', 'url': '/cgi-bin/tags/create', 'data': None, 'excepted': {'errcode': 44002, 'errmsg': 'empty post data', 'statusCode': 200}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7148832b5bbfe23b.json",
+  "parameterValues" : [ "{'caseName': '【创建用户标签接口】用例6：请求body缺失', 'method': 'post', 'url': '/cgi-bin/tags/create', 'data': None, 'excepted': {'errcode': 44002, 'errmsg': 'empty post data', 'statusCode': 200}}" ]
+}

@@ -1,0 +1,4 @@
+2024-05-16 12:38:55 DEBUG Starting new HTTPS connection (1): api.weixin.qq.com:443
+2024-05-16 12:38:56 DEBUG https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx8419d850fbd9f70e HTTP/1.1" 200 78
+2024-05-16 12:38:56 INFO 【获取鉴权接口】用例5：secret参数为空/缺失- 测试用例,执行成功！实际响应码为：200
+2024-05-16 12:38:56 INFO 【获取鉴权接口】用例5：secret参数为空/缺失- 测试用例,执行成功！实际响应结果为：{'errcode': 41004, 'errmsg': 'appsecret missing rid: 66458de0-42e6352f-5be7e77b'}

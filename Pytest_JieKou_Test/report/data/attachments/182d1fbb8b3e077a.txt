@@ -1,0 +1,5 @@
+2024-05-16 12:39:07 DEBUG Starting new HTTPS connection (1): api.weixin.qq.com:443
+2024-05-16 12:39:08 DEBUG https://api.weixin.qq.com:443 "POST /cgi-bin/tags/delete?access_token=80_X82t0TCzj4kqvz_hPUNm_fwwH6n5C02pX2-TiwEO29cTixMpxdwrzI6VtbvtcfIt25uj478i0demenIv-ZIgYwQKZIQZ9vzepHSTWxF5JUIdb2fbL24UKOPp12AELIdAGAVCZ HTTP/1.1" 200 103
+2024-05-16 12:39:08 INFO 【删除用户标签接口】用例4：删除用户标签-参数id为中文汉字- 测试用例,执行成功！实际响应码为：200
+2024-05-16 12:39:08 INFO 【删除用户标签接口】用例4：删除用户标签-参数id为中文汉字- 测试用例,执行成功！实际响应结果为：{'errcode': 47001, 'errmsg': 'data format error hint: [tFHcr0mre-rItLFa] rid: 66458dec-615a10e4-253890f7'}
+2024-05-16 12:39:08 INFO 【删除用户标签接口】用例4：删除用户标签-参数id为中文汉字- 测试用例,执行成功！实际响应结果为：{"errcode": 47001, "errmsg": "data format error hint: [tFHcr0mre-rItLFa] rid: 66458dec-615a10e4-253890f7"}

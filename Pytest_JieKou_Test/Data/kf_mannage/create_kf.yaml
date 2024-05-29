@@ -1,0 +1,70 @@
+#完整客服账号，格式为：账号前缀@公众号微信号
+#账号前缀最多10个字符，必须是英文、数字字符或者下划线
+#后缀为公众号微信号，长度不超过30个字符
+#客服昵称，最长16个字
+-
+  caseName: 【创建客服账号接口】用例1：参数全部正确
+  method: &method post
+  url: &url /customservice/kfaccount/add
+  data:
+    kf_account: &kf_account ${get_kf_account()}
+    nickname: &nickname ${generate_random_string(16)}
+  excepted:
+    errcode: 0
+    errmsg: ok
+    statusCode: &statusCode 200
+-
+  caseName: 【创建客服账号接口】用例2：参数客服账号已存在
+  method: *method
+  url: *url
+  data:
+    kf_account: test1@test
+    nickname: *nickname
+  excepted:
+    errcode: 65406
+    errmsg: custom service account exists
+    statusCode: *statusCode
+-
+  caseName: 【创建客服账号接口】用例3：参数客服账号为空
+  method: *method
+  url: *url
+  data:
+    kf_account: ""
+    nickname: *nickname
+  excepted:
+    errcode: 65404
+    errmsg: illegal custom service account
+    statusCode: *statusCode
+-
+  caseName: 【创建客服账号接口】用例4：参数nickname客服昵称为空
+  method: *method
+  url: *url
+  data:
+    kf_account: *kf_account
+    nickname: ""
+  excepted:
+    errcode: 0
+    errmsg: ok
+    statusCode: *statusCode
+-
+  caseName: 【创建客服账号接口】用例5：参数nickname客服昵称超过16个字符
+  method: *method
+  url: *url
+  data:
+    kf_account: *kf_account
+    nickname: 111fwert1234rfgt3
+  excepted:
+    errcode: 65403
+    errmsg: illegal nickname
+    statusCode: *statusCode
+-
+  caseName: 【创建客服账号接口】用例6：参数客服账号/前缀超过10个字符
+  method: *method
+  url: *url
+  data:
+    kf_account: "test_123456@test"
+    nickname: *nickname
+  excepted:
+    errcode: 65404
+    errmsg: illegal custom service account
+    statusCode: *statusCode

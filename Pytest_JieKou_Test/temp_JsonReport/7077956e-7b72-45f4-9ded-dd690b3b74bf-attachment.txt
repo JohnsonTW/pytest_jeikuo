@@ -1,0 +1,3 @@
+2024-05-16 12:38:57 DEBUG Starting new HTTPS connection (1): mp.weixin.qq.com:443
+2024-05-16 12:38:57 DEBUG https://mp.weixin.qq.com:443 "GET /cgi-bin/showqrcode?ticket=gQF68TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAySWdONXdLZUVmb0QxMDAwME0wM1oAAgTEjUVmAwQAAAAA HTTP/1.1" 200 38804
+2024-05-16 12:38:57 INFO 【通过ticket换取二维码接口】用例1：参数全部正确- 测试用例,执行成功！实际响应码为：200

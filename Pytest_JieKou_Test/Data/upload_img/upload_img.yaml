@@ -1,0 +1,105 @@
+-
+  caseName: 【上传卡券图片接口】用例1：files参数为空
+  method: &method post
+  url: &url /cgi-bin/media/uploadimg
+  params:
+    access_token: &access_token ${read_yaml(access_token.yaml)}
+  files:
+    buffer: ""
+  excepted:
+    errcode: 41005
+    errmsg: media data missing
+    statusCode: &statusCode 200
+-
+  caseName: 【上传卡券图片接口】用例2：files格式为txt
+  method: *method
+  url: *url
+  params:
+    access_token: *access_token
+  files:
+    buffer: 测试.txt
+  excepted:
+    errcode: 40005
+    errmsg: invalid file type
+    statusCode: *statusCode
+-
+  caseName: 【上传卡券图片接口】用例3：files格式为png
+  method: *method
+  url: *url
+  params:
+    access_token: *access_token
+  files:
+    buffer: &buffer 卡券.png
+  excepted:
+    text1: url
+    statusCode: *statusCode
+-
+  caseName: 【上传卡券图片接口】用例4：files格式为jpg
+  method: *method
+  url: *url
+  params:
+    access_token: *access_token
+  files:
+    buffer: 微信门店图片.jpg
+  excepted:
+    text1: url
+    statusCode: *statusCode
+-
+  caseName: 【上传卡券图片接口】用例5：access_token参数为空
+  method: *method
+  url: *url
+  params:
+    access_token: ""
+  files:
+    buffer: *buffer
+  excepted:
+    errcode: 41001
+    errmsg: access_token missing
+    statusCode: *statusCode
+-
+  caseName: 【上传卡券图片接口】用例6：access_token过期/无效
+  method: *method
+  url: *url
+  params:
+    access_token: 79_0dz5ZVAQn2sLFP_QxxjMEoU_cO4H61dnjP8LTEuIvkNntXntY6OvUu2Rbs5dwgZASAUSVDK8ITWrALFWLVYEazNbKDCHfPrcCW6rNKhL4e_aXob1nCxjH2fZh2UDLYeACATBO
+  files:
+    buffer: *buffer
+  excepted:
+    errcode: 42001
+    errmsg: access_token expired
+    statusCode: *statusCode
+-
+  caseName: 【上传卡券图片接口】用例7：access_token参数缺失
+  method: *method
+  url: *url
+  params:
+  files:
+    buffer: *buffer
+  excepted:
+    errcode: 41001
+    errmsg: access_token missing
+    statusCode: *statusCode
+-
+  caseName: 【上传卡券图片接口】用例8：files格式为mp3
+  method: *method
+  url: *url
+  params:
+    access_token: *access_token
+  files:
+    buffer: 1.mp4
+  excepted:
+    errcode: 40005
+    errmsg: invalid file type
+    statusCode: *statusCode
+-
+  caseName: 【上传卡券图片接口】用例9：文件大小超过1MB
+  method: *method
+  url: *url
+  params:
+    access_token: *access_token
+  files:
+    buffer: 大于1MB.jpg
+  excepted:
+    errcode: 40009
+    errmsg: invalid image size
+    statusCode: *statusCode

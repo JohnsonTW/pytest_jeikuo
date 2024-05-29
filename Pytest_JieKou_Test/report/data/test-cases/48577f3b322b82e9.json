@@ -1,0 +1,99 @@
+{
+  "uid" : "48577f3b322b82e9",
+  "name" : "test_by_ticket_get_qrcode[args0]",
+  "fullName" : "testcase.qrcode.test_ticket.Test_qrcode#test_by_ticket_get_qrcode",
+  "historyId" : "863e76852eebf9f99699c9fe74c3d961",
+  "time" : {
+    "start" : 1715834337507,
+    "stop" : 1715834337720,
+    "duration" : 213
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "执行接口",
+      "time" : {
+        "start" : 1715834337508,
+        "stop" : 1715834337714,
+        "duration" : 206
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "dc87ea18bbf6da10",
+      "name" : "log",
+      "source" : "dc87ea18bbf6da10.txt",
+      "type" : "text/plain",
+      "size" : 432
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "微信项目"
+  }, {
+    "name" : "feature",
+    "value" : "账号管理"
+  }, {
+    "name" : "story",
+    "value" : "通过ticket换取二维码接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.qrcode"
+  }, {
+    "name" : "suite",
+    "value" : "test_ticket"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_qrcode"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IG8PJM0"
+  }, {
+    "name" : "thread",
+    "value" : "4692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.qrcode.test_ticket"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'caseName': '【通过ticket换取二维码接口】用例1：参数全部正确', 'method': 'get', 'url': 'https://mp.weixin.qq.com/cgi-bin/showqrcode', 'params': {'ticket': 'gQF68TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAySWdONXdLZUVmb0QxMDAwME0wM1oAAgTEjUVmAwQAAAAA'}, 'excepted': {'statusCode': 200, 'http_response_header': 'image/jpg'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48577f3b322b82e9.json",
+  "parameterValues" : [ "{'caseName': '【通过ticket换取二维码接口】用例1：参数全部正确', 'method': 'get', 'url': 'https://mp.weixin.qq.com/cgi-bin/showqrcode', 'params': {'ticket': 'gQF68TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAySWdONXdLZUVmb0QxMDAwME0wM1oAAgTEjUVmAwQAAAAA'}, 'excepted': {'statusCode': 200, 'http_response_header': 'image/jpg'}}" ]
+}

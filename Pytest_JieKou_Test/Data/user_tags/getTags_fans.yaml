@@ -1,0 +1,21 @@
+-
+  caseName: 【获取标签下粉丝列表】用例1：参数正确
+  method: &method post
+  url: &url /cgi-bin/user/tag/get
+  data:
+    tagid: &tagid ${select_tags()}
+    next_openid:
+  excepted:
+    zd1: count
+  statusCode: &statusCode 200
+-
+  caseName: 【获取标签下粉丝列表】用例2：next_openid非法
+  method: *method
+  url: *url
+  data:
+    tagid: *tagid
+    next_openid: ocYxcuAEy30bX0NXmGn4ypqx3tI0
+  excepted:
+    errcode: 40003
+    errmsg: invalid openid
+  statusCode: *statusCode

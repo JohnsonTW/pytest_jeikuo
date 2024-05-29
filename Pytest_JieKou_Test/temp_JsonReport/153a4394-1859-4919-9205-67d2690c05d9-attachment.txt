@@ -1,0 +1,55 @@
+2024-05-16 12:38:39 DEBUG Importing BlpImagePlugin
+2024-05-16 12:38:39 DEBUG Importing BmpImagePlugin
+2024-05-16 12:38:39 DEBUG Importing BufrStubImagePlugin
+2024-05-16 12:38:39 DEBUG Importing CurImagePlugin
+2024-05-16 12:38:39 DEBUG Importing DcxImagePlugin
+2024-05-16 12:38:39 DEBUG Importing DdsImagePlugin
+2024-05-16 12:38:39 DEBUG Importing EpsImagePlugin
+2024-05-16 12:38:39 DEBUG Importing FitsImagePlugin
+2024-05-16 12:38:39 DEBUG Importing FitsStubImagePlugin
+2024-05-16 12:38:39 DEBUG Importing FliImagePlugin
+2024-05-16 12:38:39 DEBUG Importing FpxImagePlugin
+2024-05-16 12:38:39 DEBUG Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-05-16 12:38:39 DEBUG Importing FtexImagePlugin
+2024-05-16 12:38:39 DEBUG Importing GbrImagePlugin
+2024-05-16 12:38:39 DEBUG Importing GifImagePlugin
+2024-05-16 12:38:39 DEBUG Importing GribStubImagePlugin
+2024-05-16 12:38:39 DEBUG Importing Hdf5StubImagePlugin
+2024-05-16 12:38:39 DEBUG Importing IcnsImagePlugin
+2024-05-16 12:38:39 DEBUG Importing IcoImagePlugin
+2024-05-16 12:38:39 DEBUG Importing ImImagePlugin
+2024-05-16 12:38:39 DEBUG Importing ImtImagePlugin
+2024-05-16 12:38:39 DEBUG Importing IptcImagePlugin
+2024-05-16 12:38:39 DEBUG Importing JpegImagePlugin
+2024-05-16 12:38:39 DEBUG Importing Jpeg2KImagePlugin
+2024-05-16 12:38:39 DEBUG Importing McIdasImagePlugin
+2024-05-16 12:38:39 DEBUG Importing MicImagePlugin
+2024-05-16 12:38:39 DEBUG Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-05-16 12:38:39 DEBUG Importing MpegImagePlugin
+2024-05-16 12:38:39 DEBUG Importing MpoImagePlugin
+2024-05-16 12:38:39 DEBUG Importing MspImagePlugin
+2024-05-16 12:38:39 DEBUG Importing PalmImagePlugin
+2024-05-16 12:38:39 DEBUG Importing PcdImagePlugin
+2024-05-16 12:38:39 DEBUG Importing PcxImagePlugin
+2024-05-16 12:38:39 DEBUG Importing PdfImagePlugin
+2024-05-16 12:38:39 DEBUG Importing PixarImagePlugin
+2024-05-16 12:38:39 DEBUG Importing PngImagePlugin
+2024-05-16 12:38:39 DEBUG Importing PpmImagePlugin
+2024-05-16 12:38:39 DEBUG Importing PsdImagePlugin
+2024-05-16 12:38:39 DEBUG Importing QoiImagePlugin
+2024-05-16 12:38:39 DEBUG Importing SgiImagePlugin
+2024-05-16 12:38:39 DEBUG Importing SpiderImagePlugin
+2024-05-16 12:38:39 DEBUG Importing SunImagePlugin
+2024-05-16 12:38:39 DEBUG Importing TgaImagePlugin
+2024-05-16 12:38:39 DEBUG Importing TiffImagePlugin
+2024-05-16 12:38:39 DEBUG Importing WebPImagePlugin
+2024-05-16 12:38:39 DEBUG Importing WmfImagePlugin
+2024-05-16 12:38:39 DEBUG Importing XbmImagePlugin
+2024-05-16 12:38:39 DEBUG Importing XpmImagePlugin
+2024-05-16 12:38:39 DEBUG Importing XVThumbImagePlugin
+2024-05-16 12:38:39 INFO 该文件不是一张图片
+2024-05-16 12:38:39 DEBUG Starting new HTTPS connection (1): api.weixin.qq.com:443
+2024-05-16 12:38:39 DEBUG https://api.weixin.qq.com:443 "POST /cgi-bin/media/uploadimg?access_token=80_X82t0TCzj4kqvz_hPUNm_fwwH6n5C02pX2-TiwEO29cTixMpxdwrzI6VtbvtcfIt25uj478i0demenIv-ZIgYwQKZIQZ9vzepHSTWxF5JUIdb2fbL24UKOPp12AELIdAGAVCZ HTTP/1.1" 200 101
+2024-05-16 12:38:39 INFO 【上传卡券图片接口】用例2：files格式为txt- 测试用例,执行成功！实际响应码为：200
+2024-05-16 12:38:39 INFO 【上传卡券图片接口】用例2：files格式为txt- 测试用例,执行成功！实际响应结果为：{'errcode': 40005, 'errmsg': 'invalid file type hint: [cMpgua0319d117] rid: 66458dcf-39245eaf-21fba6c1'}
+2024-05-16 12:38:39 INFO 【上传卡券图片接口】用例2：files格式为txt- 测试用例,执行成功！实际响应结果为：{"errcode": 40005, "errmsg": "invalid file type hint: [cMpgua0319d117] rid: 66458dcf-39245eaf-21fba6c1"}
